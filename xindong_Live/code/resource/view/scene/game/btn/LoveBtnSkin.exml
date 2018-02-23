@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoveBtnSkin" width="160" height="160" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="hall_menu_btn_bg_png" horizontalCenter="0" bottom="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="hall_menu_love_png"/>
+	<e:Image id="red" source="hall_menu_red_png" width="51" x="108" y="16" visible="false"/>
+	<e:Image y="117" x="45" source="hall_txt_love_png"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FloatTipsSkin" width="216" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image anchorOffsetX="0" width="216" anchorOffsetY="0" height="150" horizontalCenter="0" verticalCenter="0" source="col_box0_png" scale9Grid="54,58,35,20"/>
+	<e:Label id="numLab" text="赠礼满120" textColor="0xFFFFFF" x="18" size="26" y="20"/>
+	<e:Label text="解锁新背景图x1" textColor="0xffffff" x="18" y="62" size="26"/>
+	<e:Label text="解锁独立视频x1" textColor="0xFFFFFF" x="18" size="26" y="104"/>
+</e:Skin>

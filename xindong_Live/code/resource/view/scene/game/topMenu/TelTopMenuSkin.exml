@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TelTopMenuSkin" width="1280" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="wx_top_menu_png" horizontalCenter="0" top="0"/>
+	<ns1:HeartsPlugins id="heartUI" x="874.14" y="-2.33" skinName="HeartsPluginsSkin" scaleX="1" scaleY="1"/>
+	<e:Image id="topTitleImg" source="com_title_calling_png" x="218" y="23"/>
+	<ns1:GoldUI id="goldUI" x="713.48" y="-1.35" skinName="GoldUISkin" scaleX="1" scaleY="1"/>
+</e:Skin>

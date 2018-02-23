@@ -1,0 +1,58 @@
+心动女生第一版u8登录、支付、视频播放、登出
+
+Egret请求App u8登录
+u8Login		
+参数	类型	注释
+user	string	游客登录user为””
+
+App返回登录
+u8Login		
+{"extension":"",
+"sdkUsername":"WXofO230b85GmsWB3Su-0GebkxFjXw",
+"userID":814,                      
+"username":"1515635886816.bsfbgf", 
+"sdkUserID":"ofO230b85GmsWB3Su-0GebkxFjXw",
+"suc":true,
+"token":"81bab7aaef9db88a6ce3aaa7b60c3682"}
+
+
+Egret请求App u8支付
+pay		
+buyNum	        number	购买数量
+productName	string	物品名
+price	        number	物品价格
+productDesc	string	物品描述
+orderID	        string	订单号
+productId	string	产品标识
+diamonds	?	?
+ratio	        string	?
+serverID	string	游戏服务器ID，未用到
+serverName	string	游戏服务器名，未用到
+
+App返回支付
+pay		
+order_id	string	订单号
+code	        number	支付成功：200
+res	        string	支付情况信息
+
+
+App请求Egret登出
+logout		
+		
+		
+
+Egret返回登出
+logout		
+		
+
+
+Egret请求App视频播放
+videoStartPlay		
+type	string	播放类型?
+auth	string	视频链接
+aliyun	string   "1"使用阿里云播放  "0"原生播放
+false 使用原生播放
+
+App返回视频播放
+viedoFinishPlay		
+		

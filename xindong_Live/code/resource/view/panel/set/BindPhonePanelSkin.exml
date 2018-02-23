@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BindPhonePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Group id="contentGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetX="183" anchorOffsetY="245" touchEnabled="false" scaleX="1" scaleY="1" width="860" height="560">
+		<e:Image scale9Grid="55,25,30,18" left="0" right="0" top="0" bottom="0" source="set_box0_png"/>
+
+
+		<e:Image anchorOffsetY="0" height="350" anchorOffsetX="0" width="810" scaleX="1" scaleY="1" scale9Grid="43,25,67,19" x="25" y="91.67" source="set_box2_png"/>
+		<e:Image y="13" scaleX="1" scaleY="1" source="set_pink_png" x="5"/>
+		<e:Image id="closeBtn" source="mail_close_png" x="762" y="6"/>
+		<e:Label text="手机号：" x="123" y="168" textColor="0x9f9f9f" size="34"/>
+		<e:Image x="253" y="150" source="set_bind_png_png" width="490" scale9Grid="45,19,41,26" anchorOffsetY="0" height="70"/>
+		<e:EditableText id="phoneEdit" width="474.24" height="65.15" text="" x="263" y="153.14" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="left" textColor="0x52a4fa" maxChars="11" inputType="TEL" restrict="&quot;0-9&quot;"/>
+		<e:Label text="验证码：" x="123" y="278.14" textColor="0x9F9F9F" size="34"/>
+		<e:Image x="253" y="260.14" source="set_bind_png_png" width="249.39" height="70" scale9Grid="45,19,41,26" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:EditableText id="codeEdit" width="237.87" height="65.15" text="" x="263" y="263.11" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="left" textColor="0x52A4FA" maxChars="6"/>
+		<e:Button id="bindBtn" label="绑定" y="461.98" scaleX="1" scaleY="1" x="320">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="getCodeBtn" label="获取验证码" y="258.34" scaleX="1" scaleY="1" x="523.94">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png" source.disabled="com_btn_black_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="com_title_bind_png" y="22" x="346"/>
+	</e:Group>
+</e:Skin>

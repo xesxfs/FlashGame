@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShiPinScrollerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maskImg" source="bag2_zhishibing_png"/>
+	<e:Image id="videoImg" width="366" height="221" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="zhezhaoImg" width="366" height="221" source="shipin2_heisebantoumingzhezhao_png"/>
+	<e:Image id="playImg" y="87" horizontalCenter="0.5" source="shipin2_bofang_png"/>
+	<e:Image id="lockImg" horizontalCenter="0" y="79" source="shipin2_suo_png"/>
+	<e:Group id="goldGroup" x="203" y="170">
+		<e:Image source="shipin2_jinbizhezhao_png"/>
+		<e:Image x="123" y="7.5" source="main2_jinbi_png" width="35" height="35"/>
+		<e:Label id="goldText" text="100000" x="-12" y="12" anchorOffsetX="0" size="28" fontFamily="fzyc" textAlign="right" width="131"/>
+	</e:Group>
+	<e:Group id="dateGroup" x="21" y="169">
+		<e:Image source="shipin2_zizhezhao_png" x="0" y="0"/>
+		<e:Label id="dateText" text="游戏第10天开启" y="14" fontFamily="SimHei" x="57"/>
+	</e:Group>
+	<e:Image source="bag2_baidi_png" y="221"/>
+	<e:Label id="typeText" text="回忆01" y="239" fontFamily="fzyc" textColor="0x666666" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

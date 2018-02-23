@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="buyToolPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Rect id="bgImg" width="100%" height="100%" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" source="bag2_ditu_png"/>
+		<e:Button id="canelBtn" label="" x="88" y="325">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bag2_lvseanniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image y="21" source="bag2_quxiao_png" horizontalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="okBtn" label="" x="367" y="325" width="191" height="86">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image y="20" horizontalCenter="0.5" source="bag2_queding_png"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="titleLabel" text="呵呵呵呵" x="284.91" y="25" fontFamily="fzyc" size="40" textAlign="left" verticalAlign="middle" anchorOffsetX="0" width="292.09" textColor="0xe03637"/>
+		<e:Label id="contentLabel" text="呵呵呵" x="291" y="121" fontFamily="fzyc" width="291" size="24" textColor="0x333333" textAlign="left" verticalAlign="middle" anchorOffsetX="0"/>
+		<e:Image x="291" y="172" source="main2_jinbi_png" width="35" height="35"/>
+		<e:BitmapLabel id="goldLabel" text="16000" x="340" y="174" font="shuzi3_fnt"/>
+		<e:Group id="xiangouGroup" x="270" y="59">
+			<e:Label text="今日可购买：" x="14.999999999999943" y="13.000000000000057" fontFamily="fzyc" size="28" textColor="0xe03637"/>
+			<e:Label id="maxcountLabel" text="6/6" x="187.4400000000001" y="11.52" textColor="0xe03637" fontFamily="fzyc" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group x="26" y="22" width="233" height="184">
+			<e:Image width="233" height="184" source="bag2_tupianceng_png"/>
+			<e:Image id="giftImg" width="229" height="180" x="2" y="2"/>
+		</e:Group>
+		<e:Group y="240" x="14">
+			<e:Image y="0" x="0" source="bag2_toumingdi_png"/>
+			<e:Button id="jianBtn" label="" x="175" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bag2_jianhao_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="jiaBtn" label="" x="363" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bag2_jiahao_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="countLabel" text="999" y="11" size="38" fontFamily="SimHei" x="262" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF" anchorOffsetX="0" width="97"/>
+			<e:Button id="nojianBtn" label="" x="175" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bag2_jianhao1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="nojiaBtn" label="" x="363" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bag2_jiahao1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

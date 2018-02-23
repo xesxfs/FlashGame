@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SendMessageSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="weixin2_liaotiankuang_png"/>
+	<e:Group id="sendGroup" anchorOffsetY="0">
+		<e:Button id="send" label="" x="705" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="weixin2_fasonganniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image y="20" source="weixin2_fasong_png" horizontalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="labelGroup" x="0" y="0" height="81" width="684" touchChildren="false" touchEnabled="true" touchThrough="false">
+			<e:Label id="msgLabel" text="" x="33" anchorOffsetX="0" width="623" anchorOffsetY="0" verticalAlign="middle" fontFamily="fzyc" multiline="false" size="28" height="41" verticalCenter="0" textColor="0x808080" y="20" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="goldGroup" width="626" height="60" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="true" touchThrough="false" x="28" y="9" visible="false">
+			<e:Group x="84" y="11">
+				<e:Label text="对方正在输入..." y="8" size="28" fontFamily="fzyc" textColor="0x666666" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:BitmapLabel id="goldLabel" text="100" x="247" y="14" anchorOffsetX="0" font="shuzi3_fnt"/>
+			<e:Image x="329" y="13" source="main2_jinbi_png" width="40" height="40"/>
+			<e:Group x="439" y="9">
+				<e:Label text="立即回复" x="0" y="8" size="28" fontFamily="fzyc" textColor="0x666666" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="10" paddingLeft="82" paddingTop="13"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="unsendGroup" visible="false">
+		<e:Button id="unsend" label="" x="705" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="weixin2_huiseanniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="weixin2_fasong_png" horizontalCenter="0" y="20"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingLockSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="1" touchEnabled="true"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="loadingLabel" text="加载中..." textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" y="414.34" fontFamily="fzyc" size="40" x="565"/>
+		<e:Group id="mcGroup" width="166" height="160" scaleX="1" scaleY="1" x="557" y="229.37"/>
+	</e:Group>
+</e:Skin>

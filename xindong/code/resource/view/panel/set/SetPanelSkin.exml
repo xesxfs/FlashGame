@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Group id="setGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetX="183" anchorOffsetY="245">
+		<e:Image x="0" y="0" source="set2_ditu_png"/>
+		<e:Image y="19.34" source="youjian_biaoti_png" horizontalCenter="0.5"/>
+		<e:Image y="33.34" source="set2_shezhi_png" horizontalCenter="0.5"/>
+		<e:Group x="35.30000000000001" y="91">
+			<e:Image x="0" y="0" source="set2_toumingkuang_png" scale9Grid="43,46,260,281"/>
+			<e:Label text="主人公" x="33.69" y="30.319999999999993" fontFamily="fzyc" textColor="0xffffff"/>
+			<e:Label text="角色ID" x="39.69" y="144" fontFamily="fzyc" textColor="0xffffff"/>
+			<e:Label id="zhuName" text="" x="59" y="82" textColor="0x6d4b49" fontFamily="fzyc" anchorOffsetX="0" width="280" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="zhuId" text="" x="59" y="206" textColor="0x6d4b49" fontFamily="fzyc" width="280" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Group id="kaiguanGroup" x="399" y="91">
+			<e:Image x="0" y="0" source="set2_toumingkuang_png" width="403" height="166" scale9Grid="43,46,260,281"/>
+			<e:Image x="47" y="54" source="set2_yinyue_png"/>
+			<e:Image id="sndLine" source="set_line_png" x="46.84" y="53.11" visible="false"/>
+			<e:Label text="音乐" x="106" y="64" fontFamily="fzyc"/>
+			<e:ToggleSwitch id="kaiguan" label="" x="212" y="48">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="set2_kai_png" source.down="set2_guan_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleSwitch>
+		</e:Group>
+		<e:Group id="jianyiGroup" x="398" y="270" touchChildren="false" touchEnabled="true" touchThrough="false">
+			<e:Image width="198" height="191" x="0" y="0" source="set2_toumingkuang_png" scale9Grid="43,46,260,281"/>
+			<e:Image x="65" y="44" source="set2_jianyi_png"/>
+			<e:Label text="协议" x="66.66" y="125" fontFamily="fzyc"/>
+		</e:Group>
+		<e:Group id="youjianGroup" x="609" y="269" touchChildren="false" touchEnabled="true" touchThrough="false">
+			<e:Image width="194" height="191" x="0" y="0" source="set2_toumingkuang_png" scale9Grid="43,46,260,281"/>
+			<e:Image x="61" y="49" source="set2_youjian_png"/>
+			<e:Label text="邮件" x="69" y="126.33999999999997" size="32" fontFamily="fzyc"/>
+			<e:Image id="xin" x="133" y="7" source="main2_tishi_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="leftGroup" right="0" width="1280" height="720" touchEnabled="false" top="0">
+		<e:Button id="guanbiBtn" label="" y="20" x="1157" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

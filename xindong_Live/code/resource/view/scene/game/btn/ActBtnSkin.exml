@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActBtnSkin" width="570" height="240" xmlns:e="http://ns.egret.com/eui">
+
+	<e:Image horizontalCenter="0" verticalCenter="0" source="hall_menu_act_png"/>
+	<e:Image id="newImg0" source="hall_menu_new0_png" x="13" y="11" visible="false"/>
+	<e:Image id="newImg1" source="hall_menu_new1_png" x="13" y="11" visible="false"/>
+
+</e:Skin>

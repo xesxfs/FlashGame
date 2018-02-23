@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WeixinPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="buttom" bottom="0" touchEnabled="false" left="0" right="0" top="0">
+		<e:Scroller id="messageScroller" width="1280" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" bottom="88" top="251">
+		<e:List id="messageList" width="100%" height="100%" anchorOffsetY="0" x="0" y="0">
+			<e:layout>
+			<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<ns1:SendMessage id="sendMessage" skinName="SendMessageSkin" x="0" bottom="5"/>
+	</e:Group>
+	<e:Group id="top" width="1280" height="720" touchEnabled="false" horizontalCenter="0" top="0">
+		<ns1:TopMenu id="topMenu" skinName="TelTopMenuSkin" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="grilImg" x="23" y="16" width="195" height="195" source="wechat_head_png"/>
+		<e:Label id="grilname" text="小爱" x="65" y="214" size="28" fontFamily="Arial" verticalAlign="middle" textAlign="center" width="112" height="28"/>
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="selectGroup" left="0" right="0" top="0" bottom="0">
+		<e:Rect id="selectBg" left="-2" right="2" top="0" bottom="0" fillAlpha="0"/>
+		<ns1:MessageList id="selectList" x="215.12" skinName="Message3ListSkin" scaleX="1" scaleY="1" bottom="75"/>
+	</e:Group>
+
+	<e:Group id="left" touchEnabled="false" bottom="0" width="1280" height="720" left="0">
+		<e:Button id="closeBtn" label="" y="674.05" x="56.86" scaleX="1" scaleY="1" width="82" height="79" anchorOffsetX="41" anchorOffsetY="39.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="yindaoGroup" touchChildren="true" touchEnabled="true" touchThrough="false" bottom="0" left="0" right="0" top="0" visible="false">
+		<e:Group bottom="0" width="1280" height="720" x="0">
+			<e:Image id="weixinHand" x="516.51" scaleX="1" scaleY="1" y="497.15" source="com_guide3_png"/>
+			<e:Image x="226.57000000000002" scaleX="1" scaleY="1" y="267.45" source="com_guide0_png"/>
+			<e:Image x="388.09000000000003" scaleX="1" scaleY="1" y="125.94" source="com_guide2_png"/>
+			<e:Image id="yd_weixinImg" x="123.85" scaleX="1" scaleY="1" y="642" anchorOffsetY="0" height="62.85" anchorOffsetX="0" width="872.91" source="com_guide4_png"/>
+			<e:Label text="点击这里，" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="526.6" y="172.13"/>
+			<e:Label text="选择你想要发送的消息" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="451.6000000000001" y="214.63"/>
+			<e:Label text="喵~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="577.6" y="257.13"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

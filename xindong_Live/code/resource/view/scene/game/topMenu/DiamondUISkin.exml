@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DiamondUISkin" width="200" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="42" scale9Grid="9,10,23,22" source="com_gold_bg_png" y="16" scaleX="1"/>
+
+	<e:Image x="2" y="7" source="com_diamond_png"/>
+	<e:Label id="diamondLabel" text="999999" x="77" y="20" textColor="0xFF679A" anchorOffsetX="0" width="108" textAlign="left" verticalAlign="middle" italic="true"/>
+</e:Skin>

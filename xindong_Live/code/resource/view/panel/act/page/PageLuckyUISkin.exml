@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageLuckyUISkin" width="980" height="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="lucky_box_pink2_png" scale9Grid="118,104,67,36" width="980" height="580" x="0" y="0"/>
+	<e:Group id="itemGroup" width="940" x="0" height="530" y="0" touchEnabled="false">
+		<ns1:LuckyItem x="28" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="183.28000000000003" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="337.88000000000005" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="492.4800000000001" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="647.0800000000002" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="802" y="25" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="802" y="210.34" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="802" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="647.5400000000001" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="492.07000000000005" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="337.94" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="183.14000000000001" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="28" y="394.99" skinName="LuckyItemSkin"/>
+		<ns1:LuckyItem x="28" skinName="LuckyItemSkin" y="210.34"/>
+	</e:Group>
+	<e:Group left="0" right="0" top="0" bottom="0" touchEnabled="false">
+		<e:Button id="tenBtn" label="十连抽" x="207" anchorOffsetY="0" height="130" width="256" scaleX="1" scaleY="1" y="236">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png" scale9Grid="107,33,6,7"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="oneBtn" label="免费抽一次" x="518" y="236" anchorOffsetY="0" height="130" width="256" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png" scale9Grid="107,33,6,7"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="firstLabel" text="今日首抽" x="586" y="248" textColor="0x55ecff" touchEnabled="false"/>
+		<e:Label id="oneLabel" text="100" x="621" y="321" touchEnabled="false"/>
+		<e:Label id="tenLabel" text="100" x="310" y="321" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

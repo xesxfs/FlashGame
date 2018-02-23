@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WechatMessageListSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" width="1280" x="0" height="200" y="0">
+		<ns1:LeftMessage id="leftMessage" scaleX="1" scaleY="1" skinName="LeftMessageSkin" x="0"/>
+		<ns1:RightMessage id="rightMessage" skinName="RightMessageSkin" width="905" x="375"/>
+	</e:Group>
+</e:Skin>

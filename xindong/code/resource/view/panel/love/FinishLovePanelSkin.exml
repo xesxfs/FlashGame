@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FinishLovePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="contentGroup" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="set2_ditu_png" scale9Grid="105,62,632,376" anchorOffsetX="0" width="655.63" anchorOffsetY="0" height="428.79" x="0" y="0"/>
+		<e:Image y="11.79" source="youjian_biaoti_png" x="130"/>
+		<e:Image y="25.79" source="dacheng_dacheng_png" x="279"/>
+		<e:Image y="78.04" source="dacheng_xin_png" x="287"/>
+		<e:Label id="xinLabel" text="获得10心动值" y="175.04" anchorOffsetX="0" width="510.36" anchorOffsetY="0" height="104.24" verticalAlign="middle" textAlign="center" fontFamily="fzyc" textColor="0xfa4e5e" size="40" x="73"/>
+		<e:Button id="okBtn" label="" y="297.97" x="207">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_hongseanniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="xieyi_queding_png" horizontalCenter="0" y="29"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+*.py[co]
+env/
+.idea/
+.DS_Store
+*.cfg
+logs/
+code/bin-debug/
+code/bin-release/
+code/template

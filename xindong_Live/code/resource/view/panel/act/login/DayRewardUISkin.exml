@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DayRewardUISkin" width="910" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="910" height="100" verticalCenter="0" horizontalCenter="0" source="com_box_itembg_png" scale9Grid="40,26,73,16"/>
+	<e:Label id="dayLabel" text="第一天" x="12" fontFamily="fzyc" verticalAlign="middle" textAlign="center" size="30" textColor="0x18a5ff" y="45"/>
+	<e:Image id="rewardImg0" x="107" source="act_login_gold_png" width="86" height="86" y="17"/>
+	<e:Image id="rewardImg1" x="294.5" y="17" width="86" height="86" source="act_login_gold_png"/>
+	<e:Image id="rewardImg2" x="482" y="17" width="86" height="86" source="act_login_gold_png"/>
+	<e:Label id="rewardLabel0" text="小蛋糕520" x="192" size="20" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="100" textColor="0x999997" y="49"/>
+	<e:Label id="rewardLabel1" text="小蛋糕520" x="381.5" size="20" verticalAlign="middle" textAlign="center" width="100" y="50" textColor="0x999997"/>
+	<e:Label id="rewardLabel2" text="小蛋糕520" x="572" size="20" verticalAlign="middle" textAlign="center" width="100" textColor="0x999997" y="49"/>
+
+	<ns1:ActLingQuBtn id="lingquBtn" x="677" skinName="ActLingQuBtnSkin" y="0"/>
+	
+</e:Skin>

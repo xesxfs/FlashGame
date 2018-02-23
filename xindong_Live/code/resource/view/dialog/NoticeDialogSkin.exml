@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" anchorOffsetX="0" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" width="860" anchorOffsetY="0" height="556" horizontalCenter="0" verticalCenter="0" source="com_box_itembg_png" scale9Grid="60,22,19,20"/>
+		<e:Image scale9Grid="38,59,21,43" anchorOffsetX="0" width="810" anchorOffsetY="0" height="320" scaleX="1" scaleY="1" source="set_box2_png" x="235" y="173.34"/>
+		<e:Image x="247.34" y="188" source="login_box_png"/>
+		<e:Image y="93.66" source="set_pink_png" x="216"/>
+		<e:Image source="com_title_notice_png" y="102.66" x="592"/>
+
+
+
+		<e:Button id="okBtn" label="确定" y="548.02" horizontalCenter="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="contentLabel" text="不好意思，宝宝们" anchorOffsetX="0" width="763.46" anchorOffsetY="0" height="218.05" verticalAlign="top" textAlign="left" size="30" fontFamily="Arial" x="262" y="251" textColor="0x877f7f"/>
+		<e:Image x="257.52" y="196.95" source="login_laba_png"/>
+		<e:Label id="noticeLabel" text="关于暖心视频无法播放" x="304.01" y="194.53" anchorOffsetX="0" width="574.24" anchorOffsetY="0" height="39.09" verticalAlign="middle" textAlign="left" fontFamily="Arial" textColor="0x877f7f"/>
+		<e:Label id="wxLabel" text="微信公众号:《心动女生手游》 客服QQ:202963048" y="500.91" anchorOffsetX="0" width="798.36" anchorOffsetY="0" height="39.09" verticalAlign="middle" textAlign="center" fontFamily="Arial" size="26" textColor="0x877f7f" x="241"/>
+
+	</e:Group>
+</e:Skin>

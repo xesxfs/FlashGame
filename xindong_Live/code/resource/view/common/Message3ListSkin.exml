@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Message3ListSkin" width="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="345">
+
+	<e:Image id="bgImg" width="696" scaleX="1" scaleY="1" height="345" horizontalCenter="0" verticalCenter="0" source="set_box2_png" scale9Grid="36,36,51,46"/>
+	<e:Image y="120" width="630" x="35" source="tel_line_png"/>
+	<e:Image y="225" width="630" x="35" source="tel_line_png"/>
+	<e:Label id="msg1" text="第一次写简历都会这样的，你可以列举一些在学校从事的活动，获得的奖项，这些都是加分项。" verticalAlign="middle" width="600" anchorOffsetY="0" y="21.64" scaleX="1" scaleY="1" fontFamily="Arial" size="26" anchorOffsetX="0" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg2" text="Label" y="123.85" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg3" text="Label" y="229.28" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+
+	
+</e:Skin>

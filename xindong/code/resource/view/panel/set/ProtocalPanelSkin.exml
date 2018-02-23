@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ProtocalPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Group id="contentGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetX="183" anchorOffsetY="245" touchEnabled="false" scaleX="1" scaleY="1">
+		<e:Image x="0" y="0" source="set2_ditu_png"/>
+		<e:Image y="19.34" source="youjian_biaoti_png" x="223"/>
+		<e:Image y="33.34" source="xieyi_title_png" x="314"/>
+		<e:Image y="100" source="set2_toumingkuang_png" scale9Grid="43,46,260,281" anchorOffsetY="0" height="311" anchorOffsetX="0" width="765" scaleX="1" scaleY="1" x="39"/>
+		<e:Scroller id="protocalScroller" width="764" height="305" anchorOffsetY="0" anchorOffsetX="0" x="40" y="103">
+			<e:Group anchorOffsetY="0" height="224" x="0" y="80">
+				<e:Label id="contentLabel" text="用户协议" y="19" anchorOffsetX="0" width="727" anchorOffsetY="0" verticalAlign="top" textAlign="left" textColor="0x6f4b4b" fontFamily="fzyc" lineSpacing="5" x="19" size="24"/>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="top" paddingTop="0" paddingBottom="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="okBtn" label="" y="454" scaleX="1" scaleY="1" x="300">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_hongseanniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+                <e:Image y="27" horizontalCenter="0" source="xieyi_queding_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="leftGroup" right="0" width="1280" height="720" touchEnabled="false" top="0">
+		<e:Button id="guanbiBtn" label="" y="20" x="1157" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

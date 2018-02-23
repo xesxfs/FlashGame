@@ -1,0 +1,33 @@
+{
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.0.3",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "md5",
+			"path": "../modules/md5"
+		}
+	],
+	"native": {
+		"android_as_path": "../../TestVideo",
+		"ios_path": "../../xindongIos"
+	}
+}

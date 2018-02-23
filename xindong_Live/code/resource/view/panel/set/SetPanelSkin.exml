@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+	<e:Group id="contentGroup" anchorOffsetX="183" anchorOffsetY="245" width="860" height="560" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="com_box_itembg_png" width="860" height="560" scale9Grid="19,31,116,10" x="0" y="0"/>
+		<e:Image y="13" scaleX="1" scaleY="1" source="set_pink_png" x="5"/>
+		<e:Image id="closeBtn" source="mail_close_png" x="762" y="6"/>
+
+
+		<e:Group x="26.74" y="96.68" anchorOffsetY="0" height="386.33" width="325">
+			<e:Image source="set_box2_png" scale9Grid="73,20,41,13" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+			<e:Label text="主人公：" x="34" y="30.319999999999993" textColor="0x6b6b69"/>
+			<e:Label text="角色ID：" x="34" y="144" textColor="0x6b6b69"/>
+			<e:Label id="nameLabel" text="adfsdf" y="82" anchorOffsetX="0" width="280" verticalAlign="middle" textAlign="center" textColor="0x6b6b69" x="23"/>
+			<e:Label id="idLabel" text="asdfsdf" x="23" y="206" width="280" verticalAlign="middle" textAlign="center" textColor="0x6b6b69"/>
+			<e:Button id="bindBtn" label="绑定手机" y="288" x="53" width="220" height="75">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+
+		<e:Group id="proGroup" x="360.44" y="343.68" touchChildren="false" touchEnabled="true" touchThrough="false" width="150" height="140">
+
+			<e:Image source="set_box2_png" left="0" right="0" top="0" bottom="0"/>
+			<e:Image source="set_btn_pro_png" x="41" y="20"/>
+			<e:Label text="协议" y="100" fontFamily="Arial" textColor="0x6c6c6a" x="45"/>
+		</e:Group>
+		<e:Group id="freeBackGroup" x="523.14" y="343.68" touchChildren="false" touchEnabled="true" touchThrough="false" width="150" height="140">
+			<e:Image source="set_box2_png" scale9Grid="43,46,59,41" left="0" right="0" top="0" bottom="0"/>
+			<e:Image y="20" source="set_btn_edit_png" x="41"/>
+			<e:Label text="反馈" y="100" size="32" textColor="0x6c6c6a" x="43"/>
+
+		</e:Group>
+		<e:Group id="mailGroup" x="685.44" y="343.68" touchChildren="false" touchEnabled="true" touchThrough="false" width="150" height="140">
+			<e:Image source="set_box2_png" scale9Grid="43,46,59,41" left="0" right="0" top="0" bottom="0"/>
+			<e:Image y="20" x="41" source="set_btn_mail_png"/>
+			<e:Label text="邮件" y="100" size="32" textColor="0x6C6C6A" x="43"/>
+			<e:Image id="redTip" x="92.34" y="5.65" source="hall_menu_red_png"/>
+		</e:Group>
+		<e:Label id="qqLabel" text="客服QQ：3342572796     微信公众号：心动女生小野" y="501.76" anchorOffsetX="0" width="787.33" anchorOffsetY="0" height="43.33" textColor="0x6c6c6a" verticalAlign="middle" textAlign="center" x="36"/>
+		<e:Image source="com_title_set_png" y="22" x="382"/>
+		<e:Group x="360.44" y="96.68" width="475" height="235">
+			<e:Image source="set_box2_png" left="0" right="0" top="0" bottom="0" scale9Grid="43,46,48,56"/>
+			<e:Label text="音乐：" x="30.04" y="30.02" fontFamily="Arial" textColor="0x6c6c6a"/>
+			<e:ToggleSwitch id="bgmBtn" label="" x="118.67" y="22.02">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="set_on_png" source.down="set_off_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:ToggleSwitch>
+			<e:Label text="音效：" x="253.37" y="30.02" fontFamily="Arial" textColor="0x6C6C6A"/>
+			<e:ToggleSwitch id="effectBtn" label="" x="342" y="22.02">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="set_on_png" source.down="set_off_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:ToggleSwitch>
+			<e:Image id="choosImg" source="set_box0_png" y="120" scale9Grid="41,18,95,19" width="410" x="33"/>
+			<e:Image source="set_music_png" x="47.37" y="132.32" touchEnabled="false"/>
+			<e:Image source="set_arrow_png" x="416.12" y="137" touchEnabled="false"/>
+			<e:Label id="musLab" text="Panama" x="105" y="135" textColor="0x32cd32" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

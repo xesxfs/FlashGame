@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultItemSkin" width="150" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="itemImg" width="100" height="100" y="1" horizontalCenter="0" source="com_btn_blue_png"/>
+	<e:Label id="nameLabel" text="小熊玩具" verticalAlign="middle" textAlign="center" size="20" width="150" y="130" x="0" textColor="0x15a7fd"/>
+</e:Skin>

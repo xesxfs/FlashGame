@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CallListItemSkin" width="521" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="51" height="51" x="18" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0.5" source="tel2_shuzikuang_png"/>
+	<e:Label id="talkLabel" text="" x="86" y="23" anchorOffsetX="0" width="357" height="34" size="28" verticalAlign="middle" textAlign="left" textColor="0x707070" fontFamily="fzyc"/>
+	<e:Label id="numLabel" text="1" x="13" y="20" anchorOffsetX="0" width="60" anchorOffsetY="0" height="40" verticalAlign="middle" textAlign="center"/>
+	<e:Label id="dateLabel" text="" x="458" y="22" width="50"/>
+	<e:Image x="80" y="67" source="weixin2_fengexian_png" width="366"/>
+</e:Skin>

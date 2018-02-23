@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeartsPluginsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="400" height="120">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image x="43" y="15" source="com_heart_barbg_png"/>
+		<e:Image id="bar" y="15" width="80" source="com_heart_bar_png" anchorOffsetX="0" scaleX="1" scaleY="1" scale9Grid="18,18,250,5" right="102"/>
+
+
+	</e:Group>
+
+
+
+	<e:Group width="251" height="74" x="39" y="9" anchorOffsetY="0" anchorOffsetX="0">
+		<e:BitmapLabel id="heartLabel" text="9999/9999" scaleY="0.88" scaleX="0.88" anchorOffsetY="0" height="61.1" anchorOffsetX="0" x="17" y="11" font="font4_fnt"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image y="5" x="273" source="com_heart_heart_png" scaleX="1" scaleY="1"/>
+		<e:Image id="maxImg" x="340" y="46" anchorOffsetX="59" anchorOffsetY="20" scaleX="1" scaleY="1" source="com_heart_max_png"/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPage1UISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="act_bg_png" x="0" y="0"/>
+	<e:Button id="chongzhiBtn" label="充值" y="405" x="211">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="act_btn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="act_page1_content_png" horizontalCenter="10" verticalCenter="-53"/>
+	<e:Label id="dateLabel" text="活动时间11.11-11.18" y="364" fontFamily="fzyc" horizontalCenter="1" size="25" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

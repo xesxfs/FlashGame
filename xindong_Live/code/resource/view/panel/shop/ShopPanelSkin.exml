@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="gloBgi" source="com_bg1_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" top="0" horizontalCenter="0"/>
+	<e:Image source="com_box_white_png" x="246" width="970" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49" verticalCenter="49"/>
+
+
+	<e:ViewStack id="shopViewStack" width="940" x="261" anchorOffsetX="0" anchorOffsetY="0" selectedIndex="0" scaleX="1" scaleY="1" height="516" verticalCenter="49">
+		<e:Group width="100%" height="100%" name="Group" touchEnabled="false">
+			<e:Scroller width="100%" height="100%" scaleX="1" scaleY="1">
+			<e:Group>
+				<e:List id="superValueList" scaleX="1" scaleY="1" height="100%">
+					<e:layout>
+						<e:HorizontalLayout gap="40" horizontalAlign="left" verticalAlign="middle" paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="100%" height="100%" name="视图">
+			<e:Scroller width="100%" height="100%" scaleX="1" scaleY="1">
+			<e:Group >
+				<e:List id="diamondList" height="100%" scaleX="1" scaleY="1" >
+					<e:layout>
+						<e:HorizontalLayout gap="40" horizontalAlign="left" verticalAlign="middle" paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="100%" height="100%" name="视图">
+			<e:Scroller width="100%" height="100%" scaleX="1" scaleY="1">
+			<e:Group >
+				<e:List id="goldList" height="100%" scaleX="1" scaleY="1" >
+					<e:layout>
+						<e:HorizontalLayout gap="40" horizontalAlign="left" verticalAlign="middle" paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="100%" height="100%" name="视图">
+		<e:Scroller width="100%" height="100%" scaleX="1" scaleY="1">
+			<e:Group>
+				<e:List id="toolList"  height="100%" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:HorizontalLayout gap="40" horizontalAlign="left" verticalAlign="middle" paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		</e:Group>
+
+
+		<e:Group width="100%" height="100%" name="视图">
+		<e:Scroller width="100%" height="100%" scaleX="1" scaleY="1">
+			<e:Group>
+				<e:List id="workList" height="100%" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:HorizontalLayout gap="40" horizontalAlign="left" verticalAlign="middle" paddingLeft="30" paddingRight="30"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		</e:Group>
+
+	</e:ViewStack>
+	<e:Group id="radioGroup"  width="192" height="567.67" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="39" x="26" touchEnabled="false">
+		<e:RadioButton id="radioBtn" value="0" label="" selected="true" y="2.66" x="1022">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+			<e:Image horizontalCenter="0" verticalCenter="25" source="shop_title1_png" source.down="shop_title0_png"/>
+			<e:Image source="shop_icon4_png" horizontalCenter="0" verticalCenter="-22"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="525" value="1" y="2.66" >
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="25" source="shop_title7_png" source.down="shop_title6_png"/>
+				<e:Image source="shop_icon3_png" horizontalCenter="0" verticalCenter="-22"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="270.69" y="2.66" value="2"  anchorOffsetX="0" >
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="25" source="shop_title5_png" source.down="shop_title4_png"/>
+				<e:Image source="shop_icon2_png" horizontalCenter="0" verticalCenter="-22"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton label="" x="25.27" y="6.65" value="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_box_pink_png"  source.down="com_box_blue_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="25" source="shop_title3_png" source.down="shop_title2_png"/>
+				<e:Image source="shop_icon1_png" horizontalCenter="0" verticalCenter="-22"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="workRadioBtn" label="" x="773" value="4" y="2.66">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+			<e:Image horizontalCenter="0" verticalCenter="25" source="shop_title9_png" source.down="shop_title8_png"/>
+			<e:Image source="shop_icon0_png" horizontalCenter="0" verticalCenter="-22"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+
+
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="10"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

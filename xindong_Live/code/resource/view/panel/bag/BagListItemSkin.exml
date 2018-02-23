@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="223" height="272">
+	<e:Image anchorOffsetY="0" source="shop_item_bg_png" scale9Grid="95,107,36,36" x="0" y="0"/>
+	<e:Image id="daojuImg" x="4" y="3" width="215" height="261" source="shop_tool_0_png"/>
+	<e:Rect id="maskImg" height="220.5" y="0.5" anchorOffsetX="0" anchorOffsetY="0" width="223" x="0"/>
+	<e:Image id="loveFlagImg" source="bag_love_icon_png" x="4" y="3"/>
+	<e:Label id="nameLabel" text="啊啊啊啊啊" height="38" fontFamily="Arial" size="32" y="223" anchorOffsetX="0" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" textColor="0x6c6c6a" x="5" width="216"/>
+
+
+
+
+
+</e:Skin>

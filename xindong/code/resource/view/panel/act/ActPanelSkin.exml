@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" scale9Grid="69,49,87,64" anchorOffsetX="0" width="970" anchorOffsetY="0" height="660" source="set2_ditu_png" x="155" y="30"/>
+		<e:Image id="titleBg" source="act_title_png" y="40.69" x="345"/>
+		<e:Label id="title" text="活动中心" y="45.88" fontFamily="fzyc" size="50" x="540" verticalAlign="middle" textAlign="center"/>
+		<e:Image id="menuBg" source="act_btn_bg_png" height="545" x="181.82" y="113.65"/>
+		<e:Group width="256.06" height="545" x="180.42" y="117.47" anchorOffsetX="0" anchorOffsetY="0">
+			<e:RadioButton id="radioBtn0" label="登录有奖" y="34.34" value="0" selected="true" x="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image  source="act_btn0_png" source.down="act_btn1_png"/>
+				<e:Image  id="red" source="act_red_tip_png" source.down="act_red_tip_png" x="190" y="-10" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn1" label="首冲双倍" y="133.19" value="1" x="16" >
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="act_btn0_png" source.down="act_btn1_png"/>
+				<e:Image  id="red" source="act_red_tip_png" source.down="act_red_tip_png" x="190" y="-10" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn2" label="首冲礼包" y="231.19" value="2" x="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="act_btn0_png" source.down="act_btn1_png"/>
+				<e:Image  id="red" source="act_red_tip_png" source.down="act_red_tip_png" x="190" y="-10" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn3" label="免费体力" y="330.19" value="3" x="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="act_btn0_png" source.down="act_btn1_png"/>
+				<e:Image  id="red" source="act_red_tip_png" source.down="act_red_tip_png" x="190" y="-10" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn4" label="礼包兑换" y="428.85" value="4" x="16">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="act_btn0_png" source.down="act_btn1_png"/>
+				<e:Image  id="red" source="act_red_tip_png" source.down="act_red_tip_png" x="190" y="-10" visible="false"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="fzyc" size="40" verticalAlign="middle" textAlign="center"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" paddingTop="20" gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="648" height="545" x="451.82" y="117.47" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="act_btn_bg2_png" scale9Grid="38,59,21,43" anchorOffsetX="0" width="648" anchorOffsetY="0" height="545" scaleX="1" scaleY="1" y="0" x="0"/>
+			<e:ViewStack id="viewStack" width="648" height="545" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-8.5" selectedIndex="0">
+				<e:Group width="100%" height="100%">
+				<ns1:ActPage0UI id="page0" scaleX="1" scaleY="1" skinName="ActPage0UISkin" x="0" y="19.12"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:ActPage1UI id="page1" scaleX="1" scaleY="1" skinName="ActPage1UISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:ActPage2UI id="page2" scaleX="1" scaleY="1" skinName="ActPage2UISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:ActPage3UI id="page3" scaleX="1" scaleY="1" skinName="ActPage3UISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:ActPage4UI id="page4" scaleX="1" scaleY="1" skinName="ActPage4UISkin" x="7.48" y="14.64"/>
+				</e:Group>
+			</e:ViewStack>
+		</e:Group>
+		<e:Image id="closeBtn" source="gift_X_png" x="1018.98" y="29.32"/>
+	</e:Group>
+</e:Skin>

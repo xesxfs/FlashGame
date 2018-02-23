@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoveBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="330">
+	<e:Image scale9Grid="9,9,24,23" source="work2_ditu_png"/>
+	<e:Image source="work2_tou_png" horizontalCenter="0" y="11"/>
+	<e:Group y="317.5" x="15" anchorOffsetX="0" width="298">
+		<e:Label text="每次获得：" x="38" y="7.5" size="22" fontFamily="fzyc" textColor="0x59718b"/>
+		<e:BitmapLabel id="xinLabel" text="10" x="208" y="3"  font="shuzi3_fnt"/>
+		<e:Image x="158" y="0.5" source="love2_xindongzhi_png"/>
+	</e:Group>
+	<e:Image id="typeImg" width="302" height="199" anchorOffsetX="0" anchorOffsetY="0" x="15" y="67"/>
+	<e:Image width="302" x="14" y="187" source="work2_zhezhao1_png"/>
+	<e:Group id="cdGroup" y="228" horizontalCenter="0">
+		<e:Label text="冷却时长:" x="17" y="2" size="24" fontFamily="fzyc" textColor="0xffffff"/>
+		<e:Label id="timeLabel" text="" x="136" y="1" size="24" fontFamily="fzyc" textColor="0xfce063"/>
+		<e:Label text="" x="190" y="0" size="22" fontFamily="fzyc" textColor="0x666666"/>
+	</e:Group>
+	<e:Label id="typeLabel" text="发传单的" y="20" size="38" fontFamily="fzyc" horizontalCenter="0" textColor="0xffffff"/>
+	<e:Group x="15" y="274.5" anchorOffsetX="0" width="300">
+		<e:Label text="消耗体力：" x="39" y="6.5" size="22" fontFamily="fzyc" textColor="0x59718b"/>
+		<e:BitmapLabel id="tiliLabel" text="10" x="207" y="7"  font="shuzi3_fnt"/>
+		<e:Image x="160" y="0" source="love2_tili_png"/>
+	</e:Group>
+	<e:Group id="daojuGroup" y="364.5" x="54">
+		<e:Label text="所需道具：" x="0" y="0" size="22" fontFamily="fzyc" textColor="0x59718b"/>
+		<e:Label id="daojuLabel" text="宠物零食" x="112" y="0" size="22" fontFamily="fzyc" textColor="0x59718b"/>
+	</e:Group>
+	<e:Group id="kaifangGroup" x="-20" y="427">
+		<e:Image y="0" source="love2_zhezhao_png" x="0"/>
+		<e:Label id="kaifangLabel" text="游戏内时间第10天开放" y="18" size="25" fontFamily="fzyc" textColor="0xffffff" x="59"/>
+	</e:Group>
+	<e:Button id="startBtn" label="" y="412" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="love2_kaishi_png" horizontalCenter="0" verticalCenter="-3"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

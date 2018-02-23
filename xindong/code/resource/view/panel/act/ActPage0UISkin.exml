@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPage0UISkin" width="648" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="525">
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Group id="scrollerGroup">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+			</e:layout>
+			<e:Image source="act_page0_title_png" x="164" y="74"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,344 @@
+{
+    "mc": {
+        "dianjiAnim": {
+            "frames": [
+                {
+                    "res": "Xin_dianji_0",
+                    "y": -256,
+                    "duration": 1,
+                    "x": -256
+                },
+                {
+                    "res": "Xin_dianji_1",
+                    "y": -9,
+                    "duration": 1,
+                    "x": -11
+                },
+                {
+                    "res": "Xin_dianji_2",
+                    "y": -17,
+                    "duration": 1,
+                    "x": -22
+                },
+                {
+                    "res": "Xin_dianji_3",
+                    "y": -25,
+                    "duration": 1,
+                    "x": -33
+                },
+                {
+                    "res": "Xin_dianji_4",
+                    "y": -34,
+                    "duration": 1,
+                    "x": -44
+                },
+                {
+                    "res": "Xin_dianji_5",
+                    "y": -42,
+                    "duration": 1,
+                    "x": -55
+                },
+                {
+                    "res": "Xin_dianji_6",
+                    "y": -42,
+                    "duration": 1,
+                    "x": -54
+                },
+                {
+                    "res": "Xin_dianji_7",
+                    "y": -49,
+                    "duration": 1,
+                    "x": -52
+                },
+                {
+                    "res": "Xin_dianji_8",
+                    "y": -57,
+                    "duration": 1,
+                    "x": -57
+                },
+                {
+                    "res": "Xin_dianji_9",
+                    "y": -64,
+                    "duration": 1,
+                    "x": -64
+                },
+                {
+                    "res": "Xin_dianji_10",
+                    "y": -72,
+                    "duration": 1,
+                    "x": -72
+                },
+                {
+                    "res": "Xin_dianji_11",
+                    "y": -79,
+                    "duration": 1,
+                    "x": -79
+                },
+                {
+                    "res": "Xin_dianji_12",
+                    "y": -87,
+                    "duration": 1,
+                    "x": -86
+                },
+                {
+                    "res": "Xin_dianji_13",
+                    "y": -89,
+                    "duration": 1,
+                    "x": -89
+                },
+                {
+                    "res": "Xin_dianji_14",
+                    "y": -92,
+                    "duration": 1,
+                    "x": -90
+                },
+                {
+                    "res": "Xin_dianji_15",
+                    "y": -96,
+                    "duration": 1,
+                    "x": -94
+                },
+                {
+                    "res": "Xin_dianji_16",
+                    "y": -98,
+                    "duration": 1,
+                    "x": -97
+                },
+                {
+                    "res": "Xin_dianji_17",
+                    "y": -98,
+                    "duration": 1,
+                    "x": -98
+                },
+                {
+                    "res": "Xin_dianji_18",
+                    "y": -100,
+                    "duration": 1,
+                    "x": -100
+                },
+                {
+                    "res": "Xin_dianji_19",
+                    "y": -103,
+                    "duration": 1,
+                    "x": -103
+                },
+                {
+                    "res": "Xin_dianji_20",
+                    "y": -70,
+                    "duration": 1,
+                    "x": -98
+                },
+                {
+                    "res": "Xin_dianji_21",
+                    "y": -71,
+                    "duration": 1,
+                    "x": -101
+                },
+                {
+                    "res": "Xin_dianji_22",
+                    "y": -46,
+                    "duration": 1,
+                    "x": -63
+                },
+                {
+                    "res": "Xin_dianji_23",
+                    "y": -48,
+                    "duration": 1,
+                    "x": -63
+                },
+                {
+                    "res": "Xin_dianji_24",
+                    "y": -49,
+                    "duration": 1,
+                    "x": -63
+                },
+                {
+                    "res": "Xin_dianji_25",
+                    "y": -51,
+                    "duration": 1,
+                    "x": -64
+                },
+                {
+                    "res": "Xin_dianji_26",
+                    "y": -51,
+                    "duration": 1,
+                    "x": -64
+                }
+            ],
+            "labels": [
+                {
+                    "end": 27,
+                    "frame": 1,
+                    "name": "Xin_dianji"
+                }
+            ],
+            "frameRate": 36,
+            "events": []
+        }
+    },
+    "file": "dianji_tex.png",
+    "res": {
+        "Xin_dianji_16": {
+            "x": 207,
+            "y": 515,
+            "w": 196,
+            "h": 197
+        },
+        "Xin_dianji_24": {
+            "x": 751,
+            "y": 304,
+            "w": 113,
+            "h": 124
+        },
+        "Xin_dianji_18": {
+            "x": 1,
+            "y": 721,
+            "w": 199,
+            "h": 199
+        },
+        "Xin_dianji_12": {
+            "x": 596,
+            "y": 696,
+            "w": 179,
+            "h": 174
+        },
+        "Xin_dianji_26": {
+            "x": 515,
+            "y": 293,
+            "w": 116,
+            "h": 127
+        },
+        "Xin_dianji_4": {
+            "x": 515,
+            "y": 422,
+            "w": 90,
+            "h": 82
+        },
+        "Xin_dianji_15": {
+            "x": 403,
+            "y": 714,
+            "w": 191,
+            "h": 193
+        },
+        "Xin_dianji_17": {
+            "x": 202,
+            "y": 721,
+            "w": 199,
+            "h": 199
+        },
+        "Xin_dianji_0": {
+            "x": 1,
+            "y": 1,
+            "w": 512,
+            "h": 512
+        },
+        "Xin_dianji_1": {
+            "x": 566,
+            "y": 972,
+            "w": 23,
+            "h": 21
+        },
+        "Xin_dianji_23": {
+            "x": 834,
+            "y": 158,
+            "w": 112,
+            "h": 123
+        },
+        "Xin_dianji_6": {
+            "x": 1,
+            "y": 922,
+            "w": 110,
+            "h": 100
+        },
+        "Xin_dianji_10": {
+            "x": 688,
+            "y": 158,
+            "w": 144,
+            "h": 144
+        },
+        "Xin_dianji_2": {
+            "x": 519,
+            "y": 972,
+            "w": 45,
+            "h": 41
+        },
+        "Xin_dianji_9": {
+            "x": 515,
+            "y": 161,
+            "w": 128,
+            "h": 130
+        },
+        "Xin_dianji_22": {
+            "x": 777,
+            "y": 430,
+            "w": 110,
+            "h": 120
+        },
+        "Xin_dianji_3": {
+            "x": 519,
+            "y": 909,
+            "w": 67,
+            "h": 61
+        },
+        "Xin_dianji_13": {
+            "x": 592,
+            "y": 515,
+            "w": 183,
+            "h": 179
+        },
+        "Xin_dianji_21": {
+            "x": 777,
+            "y": 1,
+            "w": 196,
+            "h": 155
+        },
+        "Xin_dianji_14": {
+            "x": 405,
+            "y": 515,
+            "w": 185,
+            "h": 185
+        },
+        "Xin_dianji_19": {
+            "x": 1,
+            "y": 515,
+            "w": 204,
+            "h": 204
+        },
+        "Xin_dianji_25": {
+            "x": 633,
+            "y": 304,
+            "w": 116,
+            "h": 127
+        },
+        "Xin_dianji_20": {
+            "x": 596,
+            "y": 872,
+            "w": 195,
+            "h": 151
+        },
+        "Xin_dianji_7": {
+            "x": 777,
+            "y": 552,
+            "w": 106,
+            "h": 106
+        },
+        "Xin_dianji_5": {
+            "x": 866,
+            "y": 283,
+            "w": 112,
+            "h": 102
+        },
+        "Xin_dianji_8": {
+            "x": 403,
+            "y": 909,
+            "w": 114,
+            "h": 114
+        },
+        "Xin_dianji_11": {
+            "x": 515,
+            "y": 1,
+            "w": 171,
+            "h": 158
+        }
+    }
+}

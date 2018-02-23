@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InteractAnsPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="gloBgi" horizontalCenter="0" verticalCenter="0" source="com_bg1_jpg"/>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" horizontalCenter="0" top="0"/>
+    <e:Group width="100%" height="600" horizontalCenter="0" verticalCenter="60">
+        <e:Image source="com_box_white_png" width="1150" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="1150" height="580" horizontalCenter="0" verticalCenter="0">
+				<e:Image source="com_box_bg_png" scale9Grid="6,3,40,21" width="1110" height="300" x="20" y="140"/>
+				<e:Label id="captionLab" text="题目1：" x="47" y="66" textColor="0x0099cc" size="34"/>
+				<e:Label id="questionLab" text="女友和老妈同事掉水里，先救谁？女友和老妈同事掉水里，先救谁？救谁？女友和老妈同事掉水里，先救谁？" x="175" y="49" size="34" textColor="0x666666" height="68" verticalAlign="middle" width="889.39" anchorOffsetX="0"/>
+				<e:Label id="timeLab" text="剩余时间 0:26" x="85" y="479" size="34" textColor="0xff0033"/>
+				<e:Group id="ansAGro" width="490" height="150" y="144" anchorOffsetX="0" x="85">
+					<e:Image source="interact_btn_white_png" scale9Grid="42,10,30,65" width="344" x="70" y="33"/>
+					<e:Image id="grayRectA" x="70" y="33" source="col_btn1_png"/>
+					<e:Label id="ansLabA" text="A、谁都不救" textColor="0x666666" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+					<e:Image id="tipImgA" source="interact_error_png" x="29.67" y="1.67"/>
+				</e:Group>
+				<e:Group id="ansBGro" width="490" height="150" y="144" anchorOffsetX="0" x="575">
+					<e:Image source="interact_btn_white_png" scale9Grid="42,10,30,65" width="344" x="70" y="33"/>
+					<e:Image id="grayRectB" x="70" y="33" source="col_btn1_png" scaleX="1" scaleY="1"/>
+					<e:Label id="ansLabB" text="A、谁都不救" textColor="0x666666" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+					<e:Image id="tipImgB" source="interact_error_png" x="29.67" y="1.67"/>
+				</e:Group>
+				<e:Group id="ansCGro" width="490" height="150" y="285" anchorOffsetX="0" x="85">
+					<e:Image source="interact_btn_white_png" scale9Grid="42,10,30,65" width="344" x="70" y="33"/>
+					<e:Image id="grayRectC" x="70" y="33" source="col_btn1_png" scaleX="1" scaleY="1"/>
+					<e:Label id="ansLabC" text="A、谁都不救" textColor="0x666666" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+					<e:Image id="tipImgC" source="interact_error_png" x="29.67" y="1.67"/>
+				</e:Group>
+				<e:Group id="ansDGro" width="490" height="150" y="285" anchorOffsetX="0" x="575">
+					<e:Image source="interact_btn_white_png" scale9Grid="42,10,30,65" width="344" x="70" y="33"/>
+					<e:Image id="grayRectD" x="70" y="33" source="col_btn1_png" scaleX="1" scaleY="1"/>
+					<e:Label id="ansLabD" text="A、谁都不救" textColor="0x666666" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+					<e:Image id="tipImgD" source="interact_error_png" x="29.67" y="1.67"/>
+				</e:Group>
+				<e:Label text="去掉两个错误答案" x="632.52" y="484" size="30" textColor="0x0099cc"/>
+				<e:Group id="cutGro" width="220" height="75" y="458" anchorOffsetX="0" x="881.05">
+					<e:Image scale9Grid="42,10,30,65" width="220" source="interact_btn_blue_png" x="0" y="0"/>
+					<e:Image id="cutGray" source="com_btn_black_png" x="0" y="0"/>
+					<e:Image id="costImg" y="19" horizontalCenter="-30" source="com_diamond_icon_png"/>
+					<e:Label id="costLab" text="10" textColor="0x666666" horizontalCenter="30" verticalCenter="2"/>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="gameBG" scaleX="1" scaleY="1" source="col_bg0_png" x="0" top="0"/>
+	<e:Image id="mohuBG" alpha="0" x="0" scaleX="1" scaleY="1" source="col_bg0_mohu_png" top="0"/>
+	<e:Group width="1280" height="720" right="0" top="0" touchEnabled="false">
+		<e:Group id="topGroup" touchEnabled="false" anchorOffsetY="0" width="1280" x="0" height="720" y="0">
+			<ns1:TopMenu id="topMenu" skinName="HallTopMenuSkin" scaleX="1" scaleY="1" x="0" y="0"/>
+		</e:Group>
+		<e:Group id="topTween" height="388.19" width="1280" x="0" y="0" touchEnabled="false" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group touchEnabled="false" width="1280" height="720" y="0" left="0">
+		<e:Group id="leftGroup" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" width="1280" x="0" height="720" y="0">
+			<ns1:TaskTipUI id="taskTipUI" x="24.14" y="154.17" skinName="TaskTipUISkin" visible="false"/>
+			<ns1:MenuBtn id="shouChongBtn" x="293.67" y="7.7" skinName="ShouChongBtnSkin" visible="false"/>
+			<ns1:MenuBtn id="rankBtn" x="31" y="321.25" skinName="RankBtnSkin"/>
+			<ns1:MenuBtn id="shopBtn" x="31" y="164.6" skinName="ShopBtnSkin"/>
+			<ns1:DayUI id="dayUI" x="18.24" y="14.8" skinName="DayUISkin" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="leftTween" touchEnabled="false" anchorOffsetY="0" width="614.85" x="0" height="720" y="0" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Group touchEnabled="false" width="1280" height="720" verticalCenter="0" right="0">
+		<e:Group id="rightGroup" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetX="0" width="1280" x="0" height="720" y="0">
+			<ns1:MenuBtn id="actBtn" x="676.86" y="119.13" skinName="ActBtnSkin"/>
+			<ns1:MenuBtn id="telBtn" x="702.01" y="387" skinName="TelBtnSkin"/>
+			<ns1:MenuBtn id="wechatBtn" x="886.76" y="387" skinName="WechatBtnSkin"/>
+			<ns1:MenuBtn id="interactBtn" x="1072.07" y="387" skinName="InteractBtnSkin"/>
+		</e:Group>
+		<e:Group id="rightTween" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0" width="663.33" x="616.67" height="720" y="0"/>
+	</e:Group>
+
+
+
+
+
+	<e:Group width="1280" height="720" touchEnabled="false" right="0" bottom="0">
+		<e:Group id="buttomGroup" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetY="0" width="1280" height="720" x="0" y="0">
+			<ns1:MenuBtn id="loveBtn" x="373.83" skinName="LoveBtnSkin" y="560"/>
+			<ns1:MenuBtn id="workBtn" x="547.5" skinName="WorkBtnSkin" y="560"/>
+			<ns1:MenuBtn id="bagBtn" x="722.16" skinName="BagBtnSkin" y="560"/>
+			<ns1:MenuBtn id="collectionBtn" x="895.82" skinName="CollectionBtnSkin" y="560"/>
+			<ns1:MenuBtn id="setBtn" x="1070.49" skinName="SetBtnSkin" y="560"/>
+		</e:Group>
+		<e:Group id="buttomTween" touchEnabled="false" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" width="1280" x="0" height="379.09" y="340.91"/>
+	</e:Group>
+	<e:Group id="parGro" width="1280" height="720" touchEnabled="false" right="0" bottom="0" x="10" y="10" touchThrough="true">
+	</e:Group>
+	<e:Group id="guideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Group id="telGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" width="1280" height="720" verticalCenter="0" right="2" visible="false">
+		<e:Image id="telGuideImg" source="com_guide4_png" x="711.31" y="391.12" anchorOffsetY="0" height="167.39" anchorOffsetX="0" width="168.37"/>
+		<e:Image source="com_guide0_png" x="148.84" y="299.85"/>
+			<e:Image source="com_guide2_png" x="244.69" y="82.4"/>
+			<e:Image id="telHand" x="742.24" y="259.34" scaleX="1" scaleY="1" source="com_guide3_png"/>
+
+		<e:Label text="嘟...来电话了~" size="30" fontFamily="Arial" x="369.69" y="142.48"/>
+		<e:Label text="快和性感女主播聊起来吧~" size="30" fontFamily="Arial" x="296.69" y="189.55"/>
+
+		</e:Group>
+		<e:Group id="loveGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" width="1280" height="720" right="0" bottom="0" visible="false">
+		<e:Image id="loveGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" anchorOffsetX="0" width="150" x="379.75" height="120" y="600"/>
+		<e:Image x="118.15" scaleX="1" scaleY="1" source="com_guide0_png" y="391.55"/>
+			<e:Image source="com_guide2_png" x="209.22" y="183.31"/>
+			<e:Image id="loveHand" scaleX="1" scaleY="1" x="402.81" y="460.85" source="com_guide3_png"/>
+
+		<e:Label text="女神在等着你约她玩哦~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" horizontalCenter="-214" verticalCenter="-68"/>
+
+
+
+		</e:Group>
+		<e:Group id="workGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" right="0" bottom="0" width="1280" height="720" visible="false">
+
+		<e:Image id="workGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" anchorOffsetX="0" width="150" x="552.32" height="120" y="600"/>
+		<e:Image x="132.95" scaleX="1" scaleY="1" source="com_guide0_png" y="301.25"/>
+			<e:Image source="com_guide2_png" x="279.85" y="132.71"/>
+			<e:Image id="workHand" scaleX="1" scaleY="1" x="575.56" y="457.81" source="com_guide3_png"/>
+
+		<e:Label text="女神在等着你约她玩哦~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="-133" verticalCenter="-126"/>
+
+
+		</e:Group>
+		<e:Group id="colGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" bottom="0" width="1280" height="720" right="0" visible="false">
+		<e:Image id="colGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" x="903.88" width="150" height="120" y="600"/>
+		<e:Image x="147.92" scaleX="1" scaleY="1" source="com_guide0_png" y="331.1"/>
+			<e:Image source="com_guide2_png" x="295" y="132.71"/>
+			<e:Image id="colHand" scaleX="1" scaleY="1" x="923.88" y="460.07" source="com_guide3_png"/>
+
+		<e:Label text="与女神的点点滴滴" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="392.92" y="194.1"/>
+			<e:Label text="都在珍藏着哦~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="415.92" y="237.1"/>
+
+
+		</e:Group>
+		<e:Group id="wxGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" right="0" left="0" top="0" bottom="0" visible="false">
+			<e:Group width="1280" height="720" touchEnabled="false" top="0" horizontalCenter="0">
+				<e:Group id="wxGuideOne" width="1280" height="100" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+					<e:Image scaleX="1" scaleY="1" source="com_box_itembg_png" width="1280" height="100" x="0" y="0" scale9Grid="64,31,17,12"/>
+					<e:Label id="wxGuideLabel" text="微信：颖子酱通过了你的朋友验证请求，现在可以开始聊天了。" textColor="0x070000" anchorOffsetX="0" width="857.34" anchorOffsetY="0" height="37.58" y="28.9" size="24" verticalAlign="middle" textAlign="center" horizontalCenter="-0.5"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="wxGuideTwo" touchEnabled="false" width="1280" height="720" right="0" verticalCenter="0" visible="false">
+				<e:Image id="wxGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" x="906.37" y="401.6" width="150" height="150"/>
+				<e:Image x="167.57" scaleX="1" scaleY="1" y="294.35" source="com_guide0_png"/>
+				<e:Image source="com_guide2_png" x="320.14000000000004" y="133.64" scaleX="1" scaleY="1"/>
+				<e:Image id="wxHand" scaleX="1" scaleY="1" x="924.04" y="253.29" source="com_guide3_png"/>
+				<e:Label text="女神已加你为好友了哦" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="385" y="196.72"/>
+				<e:Label text="和她聊聊吧~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="451" y="252.17"/>
+			</e:Group>
+
+
+
+
+
+
+
+
+		</e:Group>
+		<e:Group id="upgradeGuideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" width="1280" height="720" right="0" top="0" visible="false">
+			<e:Image id="upgradeGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" x="917.01" y="0.11" anchorOffsetX="0" width="348.67" anchorOffsetY="0" height="105.27"/>
+			<e:Image x="167.58" scaleX="1" scaleY="1" y="279.2" source="com_guide0_png"/>
+			<e:Image source="com_guide2_png" x="320.15" y="118.49"/>
+			<e:Label text="好感度集满，情感升华。" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="380.12" y="205.79"/>
+			<e:Image id="upgradeHand" scaleX="1" scaleY="-1" x="1010.39" y="238.14" source="com_guide3_png"/>
+		</e:Group>
+		<e:Group id="interactGuideGorup" touchChildren="true" touchEnabled="true" touchThrough="false" width="1280" height="720" right="0" top="0" x="10" y="10" visible="false">
+			<e:Image id="interactGuideImg" scaleX="1" scaleY="1" source="com_guide4_png" x="1091.29" y="401.62" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150"/>
+			<e:Image x="182.73" scaleX="1" scaleY="1" y="279.2" source="com_guide0_png"/>
+			<e:Image source="com_guide2_png" x="335.3" y="118.49"/>
+			<e:Label text="快来与女神玩快乐的小游戏吧~" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="349.82" y="205.79"/>
+			<e:Image id="interactHand" scaleX="1" scaleY="1" x="1114.92" y="253.28" source="com_guide3_png"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

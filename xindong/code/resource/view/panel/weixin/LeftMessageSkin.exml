@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeftMessageSkin" width="905" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="zhuname" text="李婉瑜" x="132" y="20" fontFamily="fzyc" size="26" textColor="0xfffcfc"/>
+	<e:Group width="787" x="115" anchorOffsetX="0" y="56">
+		<e:Group x="48" y="0">
+			<e:Image id="labelBG" width="375" height="100%" x="0" anchorOffsetX="0" source="weixin2_liaotianqipaoduifang_png" y="0" scale9Grid="37,39,133,1"/>
+			<e:Label id="text" text="Labe222222222222" verticalAlign="middle" x="32" fontFamily="SimHei" anchorOffsetX="0" top="20" bottom="25" size="26" textColor="0x707070"/>
+		</e:Group>
+		<e:Group width="2" height="20" x="430" y="52"/>
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="zhuImg" x="14" y="12" width="94" height="94" source=""/>
+	<e:Image id="talkImg" x="230" y="15" anchorOffsetX="0" anchorOffsetY="0" source="hs_yuyin_1_png" visible="false"/>
+</e:Skin>

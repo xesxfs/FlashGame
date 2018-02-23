@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ComTopMenuSkin" width="1280" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="com_box_top_png" y="0" scaleX="1" scaleY="1" x="35"/>
+	<e:Image id="topTitleImg" source="com_title_love_png" x="151" y="15"/>
+	<ns1:HeartsPlugins id="heartUI" skinName="HeartsPluginsSkin" left="827" top="0" x="832" y="0" scaleX="1" scaleY="1"/>
+	<ns1:GoldUI id="goldUI" x="668.03" y="-1.35" skinName="GoldUISkin" scaleX="1" scaleY="1"/>
+	<ns1:DiamondUI id="diamondUI" x="469.02" y="-1.35" skinName="DiamondUISkin" scaleX="1" scaleY="1"/>
+	<e:Button id="closeBtn" label="" y="0" x="55" scaleX="1" scaleY="1" width="82" height="79">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

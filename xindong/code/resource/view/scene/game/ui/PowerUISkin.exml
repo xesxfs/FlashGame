@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PowerUISkin" width="250" height="70" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="3" y="8" scale9Grid="10,10,26,21" source="main2_ditu_png"/>
+	<e:BitmapLabel id="powerLabel" text="0/100" x="77" y="18" anchorOffsetX="0" anchorOffsetY="0" height="32" verticalAlign="middle" textAlign="center" font="shuzi3_fnt"/>
+	<e:Image x="7" y="11.04" source="main2_tili2_png"/>
+	<e:Image x="31" y="24" source="main2_jiahao3_png"/>
+</e:Skin>

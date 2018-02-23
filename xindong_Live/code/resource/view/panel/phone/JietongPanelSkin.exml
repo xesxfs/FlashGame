@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JietongPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="top" width="1280" height="720" touchEnabled="false" horizontalCenter="0" top="0">
+		<ns1:TopMenu id="topMenu" skinName="TelTopMenuSkin" x="0" y="-2" scaleX="1" scaleY="1"/>
+
+		<e:Image id="grilImg" x="23" y="16" width="195" height="195" source="tel_head_png"/>
+		<e:Label id="girlName" text="小爱" x="65" y="214.16" size="28" fontFamily="Arial" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="112"/>
+	</e:Group>
+
+	<e:Group id="right" right="0" bottom="0" touchEnabled="false" width="1280" height="720">
+		<e:Label id="timeLabel" text="00:00" x="1064" y="678.18" size="32" fontFamily="fzyc" scaleX="1" scaleY="1"/>
+		<e:Button id="guaduanBtn" label="" x="985" y="444" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tel_red_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+	<e:Group id="buttom" anchorOffsetX="0" touchEnabled="false" bottom="0" left="0" right="0" top="0">
+		<e:Scroller id="msgScroller" width="905" x="20" scaleX="1" scaleY="1" bottom="0" top="262" anchorOffsetY="0">
+			<e:List id="messageList" x="0" y="0" width="100%" height="100%"/>
+		</e:Scroller>
+
+
+
+
+
+
+
+
+	</e:Group>
+
+
+
+	<e:Group id="selectGroup" left="0" right="0" top="0" bottom="0" touchEnabled="true" touchThrough="false">
+		<ns1:MessageList id="selectList" skinName="Message3ListSkin" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+
+	</e:Group>
+	<e:Group id="telGuideGroup" scaleX="1" scaleY="1" touchEnabled="true" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Group width="1280" height="720" verticalCenter="0" horizontalCenter="0">
+			<e:Image id="telGuideImg" x="297.9" scaleX="1" scaleY="1" y="309.32" source="com_guide4_png" anchorOffsetX="0" width="688.06" anchorOffsetY="0" height="103.76"/>
+			<e:Image id="telHand" x="598.46" scaleX="1" scaleY="1" y="170.2" source="com_guide3_png"/>
+
+			<e:Image x="829.09" scaleX="1" scaleY="1" y="213.47" source="com_guide2_png"/>
+			<e:Label text="电话撩妹我拿手，" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="936.51" y="238.44"/>
+			<e:Label text="胆大心细脸皮厚嘛，" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="921.51" y="277.37"/>
+			<e:Label text="初认识不妨说些客气话，" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="876.51" y="315.74"/>
+			<e:Label text="俗话说伸手不打笑脸人。" size="30" fontFamily="Arial" scaleX="1" scaleY="1" x="891.51" y="355.16"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

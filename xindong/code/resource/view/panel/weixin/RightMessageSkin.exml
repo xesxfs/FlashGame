@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RightMessageSkin" width="905" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" left="0">
+		<e:Label id="myLabel" text="我" y="0" fontFamily="fzyc" size="26" right="52" textAlign="right" textColor="0xf9f7f7"/>
+		<e:Group x="0" y="32">
+			<e:Group width="905" x="0" anchorOffsetX="0" y="0">
+				<e:Image id="labelBG" width="375" height="100%" right="22" anchorOffsetX="0" y="0" source="weixin2_liaotianqipaoziji_png" scale9Grid="27,40,327,3"/>
+				<e:Label id="text" text="Label2222222" verticalAlign="middle" right="50" bottom="25" top="20" fontFamily="SimHei" anchorOffsetX="0" size="26" textColor="0x176621"/>
+			</e:Group>
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" width="905" x="0" y="78">
+				<e:Group id="jiaGroup" x="712" y="0">
+					<e:Image x="0" source="weixin2_di_png" anchorOffsetX="0" width="174" y="0"/>
+					<e:BitmapLabel id="heartlabel" text="10" y="3" x="110" scaleX="1" scaleY="1" font="shuzi1_fnt"/>
+					<e:Image x="7" y="1" source="love2_xindongzhi_png" width="53" height="48"/>
+					<e:Image id="jiaImg" x="65" y="0" source="main2_jiahao2_png"/>
+				</e:Group>
+				<e:Group id="jianGroup" x="712">
+					<e:Image x="0" source="weixin2_di_png" anchorOffsetX="0" width="174" y="0"/>
+					<e:BitmapLabel id="jianheartlabel" text="10" y="3" x="110" scaleX="1" scaleY="1" font="xinjian_fnt"/>
+					<e:Image x="6" y="1" source="weixin2_xinsui_png"/>
+					<e:Image id="jianImg" x="71" y="14" source="weixin2_-_png"/>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

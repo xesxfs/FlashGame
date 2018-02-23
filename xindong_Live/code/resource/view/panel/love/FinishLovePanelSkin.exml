@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FinishLovePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="contentGroup" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" width="700" anchorOffsetY="0" height="500" source="set_box2_png" horizontalCenter="0" verticalCenter="0" scale9Grid="54,46,54,49"/>
+
+
+
+		<e:Label id="xinLabel" text="获得10心动值" anchorOffsetX="0" width="510.36" anchorOffsetY="0" height="104.24" verticalAlign="middle" textAlign="center" fontFamily="Arial" textColor="0xfa4e5e" size="40" x="385" y="262.55"/>
+		<e:Button id="okBtn" label="确定" y="496.82" x="530">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

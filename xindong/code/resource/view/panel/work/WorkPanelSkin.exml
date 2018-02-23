@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorkPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="work2_bg_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Scroller id="workBoxScroller" x="0" width="100%" height="540" verticalCenter="90">
+		<e:Group id="itemGroup" touchChildren="true" touchEnabled="true">
+			<e:layout>
+				<e:HorizontalLayout gap="30" paddingLeft="30" paddingRight="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<ns1:HeartsPlugins id="heartPlugin" skinName="HeartsPluginSkin" top="14" left="24"/>
+
+	<e:Group id="goldGroup" x="443" touchChildren="false" touchEnabled="true" touchThrough="false" top="48">
+		<e:Image id="jinbiImg" x="2.0500000000000114" y="1.9699999999999989" scale9Grid="9,10,23,22" source="main2_ditu_png"/>
+		<e:BitmapLabel id="goldLabel" text="0" x="72" y="9" anchorOffsetX="0" anchorOffsetY="0" height="37" verticalAlign="middle" textAlign="center" font="shuzi3_fnt"/>
+		<e:Image x="0" y="0" source="main2_jinbi_png"/>
+		<e:Image x="28.04999999999997" y="20.96999999999997" source="main2_jiahao2_png"/>
+	</e:Group>
+	<e:Group id="diamondGroup" x="698" touchChildren="false" touchEnabled="true" touchThrough="false" top="48">
+		<e:Image id="zhuanshiImg" x="10" y="3.480000000000018" anchorOffsetX="0" source="main2_ditu_png"/>
+		<e:BitmapLabel id="diamendLabel" text="0" x="80" y="10" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" font="shuzi3_fnt"/>
+		<e:Image x="0" y="0" source="main2_zuanshi_png"/>
+		<e:Image x="31" y="21" source="main2_jiahao1_png"/>
+	</e:Group>
+	<e:Group id="leftGroup" width="1280" height="720" touchEnabled="false" right="0" top="0">
+		<e:Button id="backBtn" label="" y="21.52" scaleX="1" scaleY="1" x="1157">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="yindaoGroup" touchChildren="true" touchEnabled="true" touchThrough="false" bottom="0" left="0" right="0" top="0" visible="false">
+		<e:Group width="1280" x="0" height="720" touchEnabled="false" verticalCenter="0">
+			<e:Image id="yd_workImg" x="5" scaleX="1" scaleY="1" source="yindao_work_png" y="150"/>
+			<e:Image id="workHand" x="334" scaleX="1" scaleY="1" source="yindao_handleft_png" y="614"/>
+			<e:Button id="startBtn" label="" x="112" y="592">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					<e:Image source="work2_gongzuo_png" horizontalCenter="0" y="20"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+
+		<e:Image source="yindao_miao_png" horizontalCenter="59" x="410.00000000000006" scaleX="1" scaleY="1" verticalCenter="34"/>
+
+		<e:Label text="点击工作按钮，" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="72" verticalCenter="60"/>
+		<e:Label text="快速赚取第一笔收入，" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="90" verticalCenter="102"/>
+		<e:Label text="可以开心的买买买啦~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="80.5" verticalCenter="145"/>
+
+	</e:Group>
+
+</e:Skin>

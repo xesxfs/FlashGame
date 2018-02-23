@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group touchEnabled="false" height="720" width="1280" x="0" top="0">
+		<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group touchEnabled="false" width="1280" height="720" x="0" verticalCenter="0">
+		<e:Group width="1280" x="0" height="720" touchEnabled="false" y="0">
+			<e:Image source="com_box_white_png" x="238" y="114.68" width="970" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49"/>
+			<e:Image anchorOffsetX="0" width="930" anchorOffsetY="0" height="468.67" x="258" y="187.68" source="com_box_bg_png"/>
+			<e:Label text="名次" x="310.51" y="152.24" textColor="0x13a7ff"/>
+			<e:Label text="昵称" x="668.41" y="152.24" textColor="0x13A7FF"/>
+			<e:Label id="scoreTitleLabel" text="心动值" x="1010.83" y="152.24" textColor="0x13A7FF"/>
+			<e:Label text="我的排名:" x="282.68" y="618.68" textColor="0x999997"/>
+			<e:Label id="myRankLabel" text="未上榜" x="419.37" y="618.68" textColor="0x16a6ff" textAlign="left" verticalAlign="middle"/>
+			<e:Label text="排行榜每月" x="872.25" y="618.68" textColor="0x999997" visible="false"/>
+			<e:Label text="0:00" x="1029.37" y="618.68" textColor="0xf20c07" visible="false"/>
+			<e:Label text="刷新" x="1095.49" y="618.68" textColor="0x999997" visible="false"/>
+			<e:ViewStack id="viewStack" width="927.09" height="404.67" x="260" y="198.68" anchorOffsetX="0" anchorOffsetY="0" selectedIndex="2">
+				<e:Group width="100%" height="100%" name="Group">
+				<e:Scroller left="0" right="0" top="0" bottom="0">
+					<e:Group width="100%" >
+					<e:List id="heartList" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+					</e:layout>
+					</e:Group>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="100%" height="100%" name="Group">
+				<e:Scroller left="0" right="0" top="0" bottom="0">
+					<e:Group width="100%" >
+					<e:List id="richList" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+					</e:layout>
+					</e:Group>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="100%" height="100%" name="Group">
+				<e:Scroller left="0" right="0" top="0" bottom="0">
+					<e:Group width="100%">
+					<e:List id="giftList" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+					</e:layout>
+					</e:Group>
+				</e:Scroller>
+				</e:Group>
+				<e:Group width="100%" height="100%" name="Group">
+				<e:Scroller left="0" right="0" top="0" bottom="0">
+					<e:Group width="100%" >
+					<e:List id="IQList" x="0" y="0" scaleX="1" scaleY="1"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+					</e:layout>
+					</e:Group>
+				</e:Scroller>
+				</e:Group>
+			</e:ViewStack>
+		</e:Group>
+
+
+		<e:Group id="radioGroup" width="1280" x="0" height="720" touchEnabled="false" y="1">
+			<e:RadioButton id="radioBtn" label="" x="66" y="111" value="0" selected="true">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="rank_icon_heart_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Image horizontalCenter="0" verticalCenter="25" source="rank_title7_png" source.down="rank_title6_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton label="" x="66" y="229.80999999999997" value="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="rank_icon_rich_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Image horizontalCenter="0" verticalCenter="25" source="rank_title1_png" source.down="rank_title0_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton label="" x="66" y="348.13999999999993" value="2">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="rank_icon_gift_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Image horizontalCenter="0" verticalCenter="25" source="rank_title3_png" source.down="rank_title2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton label="" x="66" y="467.1" value="3">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="rank_icon_iq_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Image horizontalCenter="0" verticalCenter="25" source="rank_title5_png" source.down="rank_title4_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

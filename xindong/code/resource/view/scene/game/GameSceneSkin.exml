@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="gameBG" scaleX="1" scaleY="1" source="main2_beijingtu_1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="mohuBG" alpha="0" source="main_mohu_png" horizontalCenter="-2" verticalCenter="0"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Group width="1280" height="720" top="0" left="0" touchEnabled="false">
+			<e:Group id="leftGroup" touchChildren="true" scaleX="1" scaleY="1" anchorOffsetX="0" width="440" anchorOffsetY="0" height="720" x="0" y="0" touchEnabled="false">
+				<ns1:TaskTipUI id="taskTipUI" x="115.04" y="108.72" skinName="TaskTipUISkin" visible="false"/>
+
+				<ns1:HeartsPlugins id="heartPlugin" x="13" y="4" skinName="HeartsPluginSkin"/>
+				<e:Button id="qiandaoBtn" label="" x="249" y="606" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main2_qiandao_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="fuliBtn" label="" x="137" y="608" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main2_fuli_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<ns1:DiamondUI id="diamondUI" x="28" y="146.99" skinName="DiamondUISkin"/>
+				<ns1:GoldUI id="goldUI" x="28" y="232.92" skinName="GoldUISkin"/>
+				<ns1:PowerUI id="powerUI" x="28" y="319.23" skinName="PowerUISkin"/>
+
+				<ns1:ShareBtn id="shareBtn" x="415.17" y="22" skinName="ShareBtnSkin" scaleX="1" scaleY="1" visible="false"/>
+				<ns1:ActBtn id="actBtn" x="426.72" y="19" skinName="ActBtnSkin"/>
+				<e:Image id="shouChongBtn" source="act_shouchong_btn_png" x="539.34" y="29.44" width="80" height="78"/>
+
+			</e:Group>
+		</e:Group>
+		<e:Group width="1280" height="720" right="0" top="0" touchEnabled="false">
+			<e:Group id="upGroup" anchorOffsetX="0" width="325" scaleX="1" scaleY="1" anchorOffsetY="0" height="453" touchEnabled="false" y="12" x="953">
+				<e:Group x="113.99999999999989" y="-5.329070518200751e-15">
+				<e:Image x="0" y="0" source="main2_toumingdi_png"/>
+				<e:BitmapLabel id="dateLabel" text="999" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="shuzi2_fnt" scaleX="0.6" scaleY="0.6" horizontalCenter="6.5" verticalCenter="-3"/>
+				<e:Image x="31.000000000000227" y="7.000000000000005" source="main2_tianshu_png"/>
+				</e:Group>
+				<e:Button id="shipinBtn" label="" x="146" y="260.48" width="179" height="169" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="179" height="169" width.down="190" height.down="180" horizontalCenter="0" verticalCenter="0" source="main2_shipin_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<ns1:SetBtn id="setBtn" x="196.4" y="60.55" skinName="setBtnSkin"/>
+			</e:Group>
+		</e:Group>
+
+
+		<e:Group width="1280" height="720" right="0" bottom="0" touchEnabled="false">
+			<e:Group id="downGroup" width="917" height="200" anchorOffsetX="0" scaleX="1" scaleY="1" touchEnabled="false" y="517" x="360.00000000000006">
+				<e:Image id="btnBG" y="139" scaleX="1" scaleY="1" source="main2_tubiaodi_png" right="0" scale9Grid="84,0,147,62"/>
+				<e:Group id="btnGroup" width="917" height="200" scaleX="1" scaleY="1"/>
+				<e:Group id="rectGroup" x="0" y="0" width="917" anchorOffsetY="0" height="200" scaleX="1" scaleY="1">
+				<e:Button label="" x="68" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_dianhua_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="191" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_weixin_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="315" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_lianai_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="438" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_weibo_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="563" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_gongzuo_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="689" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_beibao_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" x="802" y="67">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main2_shangcheng_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+
+
+
+
+
+		<e:Group id="yindaoGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0">
+			<e:Group id="yindaodianhuaGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+				<e:Image id="yd_dianhuaImg" source="yindao_quan3_png" right="231" bottom="1"/>
+				<e:Image source="yindao_miao_png" horizontalCenter="0" verticalCenter="-30"/>
+				<e:Image id="dianhuaHand" source="yindao_handdowm_png" right="263" bottom="105"/>
+				<e:Label text="新功能开放啦~" size="28" fontFamily="fzyc" horizontalCenter="20" verticalCenter="-4"/>
+				<e:Label text="女友在等你给她打电话哟~" size="28" fontFamily="fzyc" horizontalCenter="17" verticalCenter="34"/>
+				<e:Label text="喵~" size="28" fontFamily="fzyc" horizontalCenter="14" verticalCenter="75"/>
+			</e:Group>
+			<e:Group id="yindaolianaiGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+				<e:Image id="yd_lianaiImg" source="yindao_quan3_png" scaleX="1" scaleY="1" right="231" bottom="1"/>
+				<e:Image source="yindao_miao_png" horizontalCenter="0" x="410.00000000000006" scaleX="1" scaleY="1" verticalCenter="-30"/>
+				<e:Image id="lianaiHand" source="yindao_handdowm_png" scaleX="1" scaleY="1" right="263" bottom="105"/>
+				<e:Label text="恭喜你解锁了&lt;恋爱>功能，" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="28" verticalCenter="7"/>
+				<e:Label text="上升好感度可以解锁视频功能" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="26" verticalCenter="45"/>
+				<e:Label text="观看特色小电影哦~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="23.5" verticalCenter="86"/>
+				<e:Image source="yindao_heart_png" left="6" top="-2"/>
+			</e:Group>
+			<e:Group id="yindaoGongzuoGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+				<e:Image source="yindao_gold_png" left="7" top="210"/>
+				<e:Image id="yd_gongzuoImg" source="yindao_quan3_png" scaleX="1" scaleY="1" right="231" bottom="1"/>
+				<e:Image source="yindao_miao_png" horizontalCenter="0" x="410.00000000000006" scaleX="1" scaleY="1" verticalCenter="-30"/>
+				<e:Image id="gongzuoHand" source="yindao_handdowm_png" scaleX="1" scaleY="1" right="263" bottom="105"/>
+				<e:Label text="钱不是万能的，但是没有" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="21" verticalCenter="-5"/>
+				<e:Label text="钱是万万不能的，工作是" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="22" verticalCenter="32"/>
+				<e:Label text="赚金币的重要途径哦！喵~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="28.5" verticalCenter="72"/>
+			</e:Group>
+			<e:Group id="yindaoShipinGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+				<e:Image id="yd_shipinImg" scaleX="1" scaleY="1" source="yindao_quan2_png" right="2" top="249"/>
+				<e:Image source="yindao_miao_png" horizontalCenter="0" x="410.00000000000006" scaleX="1" scaleY="1" verticalCenter="-30"/>
+				<e:Image id="shipinHand" source="yindao_handdowm_png" scaleX="1" scaleY="1" right="48" top="154"/>
+				<e:Label text="视频开放啦~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="23.5" verticalCenter="7"/>
+				<e:Label text="点击右侧视频按钮观看视频！" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="26" verticalCenter="45"/>
+				<e:Label text="喵~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="24.5" verticalCenter="86"/>
+			</e:Group>
+			<e:Group id="yindaoweixinGroup" touchChildren="true" touchEnabled="true" touchThrough="false" left="0" right="0" top="0" bottom="0" visible="false">
+				<e:Image id="yd_weixinImg" source="yindao_quan3_png" scaleX="1" scaleY="1" right="231" bottom="1"/>
+				<e:Image source="yindao_miao_png" horizontalCenter="0" x="410.00000000000006" scaleX="1" scaleY="1" verticalCenter="-30"/>
+				<e:Image id="weixinHand" source="yindao_handdowm_png" scaleX="1" scaleY="1" right="263" bottom="105"/>
+				<e:Label text="微信开放啦~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="24.5" verticalCenter="-8"/>
+				<e:Label text="快给她发个消息问候一下吧~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="20.5" verticalCenter="33"/>
+				<e:Label text="喵~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" horizontalCenter="19.5" verticalCenter="78"/>
+			</e:Group>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

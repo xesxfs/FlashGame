@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gongzuoBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button label="" y="20">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100" height="104" source="main2_gongzuo_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="red" x="64" y="0" source="main2_tishi_png" visible="false"/>
+
+</e:Skin>

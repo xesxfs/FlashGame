@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InteractPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="gloBgi" horizontalCenter="0" verticalCenter="0" source="com_bg1_jpg"/>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" horizontalCenter="0" top="0"/>
+    <e:Group width="100%" height="600" horizontalCenter="0" verticalCenter="60">
+        <e:Image source="com_box_white_png" width="1150" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="giftImg" source="interact_gift_png" x="196" verticalCenter="-20"/>
+			<e:Image id="answerImg" source="interact_ask_png" x="696" verticalCenter="-20"/>
+			<e:Group width="400" height="80" x="694" verticalCenter="220">
+				<e:Label id="tipLab" text="每日首次免费" fontFamily="Microsoft YaHei" verticalCenter="0" y="20" scaleX="1" scaleY="1" textColor="0x666666" horizontalCenter="-4"/>
+				<e:Group id="costGro" width="100%" height="100%" x="0" y="0">
+					<e:Image id="iconImg" source="com_gold_icon_png" y="21" scaleX="1" scaleY="1" horizontalCenter="-40"/>
+					<e:Label id="costLab" text="100" x="198.55" textColor="0x000000" fontFamily="Arial" verticalCenter="2"/>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+</e:Skin>

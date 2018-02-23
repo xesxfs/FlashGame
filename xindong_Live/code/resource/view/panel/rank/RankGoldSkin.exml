@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankGoldSkin" width="910" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="48,23,25,19" width="900" height="70" horizontalCenter="0" verticalCenter="0" source="com_box_itembg_png"/>
+
+
+
+	<e:Image id="no1Img" source="rank_no1_png" x="49" y="9"/>
+	<e:Image id="no2Img" source="rank_no2_png" x="49" y="9"/>
+	<e:Image id="no3Img" source="rank_no3_png" x="49" y="9"/>
+	<e:Label id="rankLabel" text="50" x="48" textColor="0x17a5fb" verticalAlign="middle" textAlign="center" height="40" width="50" verticalCenter="0"/>
+	<e:Label id="nameLabel" text="Label3434" textColor="0x9a9a98" verticalAlign="middle" textAlign="left" x="385" y="23" maxChars="10"/>
+	<e:Label id="assetLabel" text="999999" x="765" textColor="0xff5a6e" textAlign="left" verticalAlign="middle" y="23" scaleX="1" scaleY="1" anchorOffsetX="0" width="133"/>
+	<e:Image id="heartImg" x="709" y="17" scaleX="1" scaleY="1" source="com_gold_icon_png"/>
+
+</e:Skin>

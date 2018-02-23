@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareGainDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="contentGroup" anchorOffsetX="0" width="649" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="set2_ditu_png" scale9Grid="105,62,632,376" anchorOffsetX="0" width="655.63" anchorOffsetY="0" height="428.79" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image y="23.9" source="youjian_biaoti_png" horizontalCenter="0"/>
+		<e:Button id="okBtn" label="" y="307" width="191" height="86" x="229">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image y="20" horizontalCenter="0.5" source="bag2_queding_png"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="gainLabel" text="获得5钻石" y="150" anchorOffsetX="0" anchorOffsetY="0" height="112" verticalAlign="middle" textAlign="right" x="193.61" size="40" textColor="0x846060"/>
+		<e:Label id="noGainLabel" text="获得5钻石" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" size="40" textColor="0x846060" horizontalCenter="0" verticalCenter="-19.5"/>
+		<e:Image y="35.4" source="share_title_png" x="246"/>
+		<e:Image id="diamondIcon" x="395.56" y="165.3" source="main2_zuanshi_png" rotation="24.7"/>
+	</e:Group>
+</e:Skin>
