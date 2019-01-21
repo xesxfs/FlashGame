@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConfirmDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" anchorOffsetX="0" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" width="700" anchorOffsetY="0" height="500" horizontalCenter="0" verticalCenter="0" source="set_box2_png" scale9Grid="54,58,35,32"/>
+		<e:Image anchorOffsetX="0" width="640" anchorOffsetY="0" height="344.85" scaleX="1" scaleY="1" y="145.15" source="set_bind_png_png" scale9Grid="38,26,21,19" horizontalCenter="0"/>
+		<e:Button id="okBtn" label="确定" y="507" horizontalCenter="162">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="cancelBtn" label="取消" y="507" x="366.51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="contentLabel" text="不好意思，宝宝们\n 啦啦啦啦" anchorOffsetX="0" width="612" anchorOffsetY="0" height="336" verticalAlign="middle" textAlign="center" size="30" fontFamily="Arial" y="151" horizontalCenter="0" textColor="0x050000"/>
+	</e:Group>
+</e:Skin>

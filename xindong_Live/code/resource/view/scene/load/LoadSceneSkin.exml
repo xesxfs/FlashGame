@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="col_bg0_mohu_png" x="0" top="0"/>
+	<e:Group bottom="0" width="1280" height="720" horizontalCenter="0">
+		<e:Image id="probg" anchorOffsetX="0" y="663.12" width="1080" source="load_bar_bg_png" scale9Grid="48,11,36,6" x="100" anchorOffsetY="0"/>
+		<e:Image id="proImg" y="665.67" x="104.49" source="load_bar_png" scale9Grid="18,9,38,3" anchorOffsetY="0"/>
+		<e:Label id="percentLab" fontFamily="Arial" bold="true" size="24" text="0%" strokeColor="0xF79465" textColor="0xffffff" y="664.63" x="618"/>
+		<e:Label text="资源加载中，请稍候..." size="30" bold="false" textAlign="center" fontFamily="fzyc" x="860.49" y="600.52" scaleX="1" scaleY="1" textColor="0xfcf7f7"/>
+		<e:Image source="load_flower_png" x="798.75" y="585.96"/>
+	</e:Group>
+
+</e:Skin>

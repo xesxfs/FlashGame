@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CallingPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="btnBG" x="906.6699999999998" y="-1.85" scale9Grid="315,80,554,38" scaleX="1" scaleY="1" anchorOffsetX="0" width="374" anchorOffsetY="0" height="100%" source="weixin2_heisebantoumingditu_png"/>
+	<ns1:HeartsPlugins id="heartPlugin" skinName="HeartsPluginSkin" scaleX="1" scaleY="1" top="4" left="13"/>
+
+
+
+
+
+	<e:Group height="720" width="1280" x="0" verticalCenter="0" touchEnabled="false">
+
+
+		<e:Image x="999" y="108" source="weixin2_datouxiangkuang_png" scaleX="1" scaleY="1"/>
+		<e:Image id="maskImg" x="999" y="108" source="weixin2_linshitouxiang_png" scaleX="1" scaleY="1" width="195" height="195"/>
+		<e:Image id="grilImg" x="999" y="108" source="weixin2_linshitouxiang_png" scaleX="1" scaleY="1" width="195" height="195"/>
+		<e:Group x="0" scaleX="1" scaleY="1" verticalCenter="24">
+			<e:Image y="0" source="tel2_bohaojiemian_png" x="0"/>
+			<e:Image source="tel2_xiaoguo_png" horizontalCenter="-53" verticalCenter="0"/>
+			<e:Image x="66" y="85" source="tel2_zhengzaihujiao_png"/>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

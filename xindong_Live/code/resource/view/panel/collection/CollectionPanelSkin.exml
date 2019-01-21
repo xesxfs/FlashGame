@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CollectionPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group top="0" left="0" right="0" bottom="0">
+		<e:Image id="gloBgi" source="com_bg1_jpg" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="100%" height="85%" x="0" bottom="0">
+			<e:Scroller width="200" height="95%" x="24" verticalCenter="0">
+				<e:Group>
+					<e:RadioButton id="radioOne" label="" y="4.32" groupName="btnGro" selected="true" value="0" scaleX="1" scaleY="1" horizontalCenter="0">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title1_png" source.down="col_title0_png"/>
+							<e:Image y="8.66" source="col_icon1_png" x="48"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton label="" y="121" groupName="btnGro" value="1" scaleX="1" scaleY="1" x="27">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title10_png" source.down="col_title11_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							<e:Image y="8.66" source="col_icon0_png" x="48"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton label="" y="239" groupName="btnGro" value="2" scaleX="1" scaleY="1" x="27">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title7_png" source.down="col_title6_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							<e:Image y="8.66" source="col_icon3_png" x="48"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton label="" y="356" groupName="btnGro" value="3" scaleX="1" scaleY="1" x="27">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title3_png" source.down="col_title2_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							<e:Image y="8.66" source="col_icon2_png" x="48"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton label="" y="473" groupName="btnGro" x="27" scaleX="1" scaleY="1" value="4">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title12_png" source.down="col_title13_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE" size="28" fontFamily="Microsoft YaHei"/>
+							<e:Image y="8.66" source="col_icon5_png" x="52"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:RadioButton label="" y="590" groupName="btnGro" value="5" scaleX="1" scaleY="1" x="27">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+							<e:Image horizontalCenter="0" verticalCenter="25" source="col_title8_png" source.down="col_title9_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							<e:Image y="8.66" source="col_icon4_png" x="42"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+				</e:Group>
+			</e:Scroller>
+
+			<e:Group width="975" height="580" x="240" verticalCenter="0">
+				<e:Image source="com_box_white_png" x="0" y="0" width="970" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49"/>
+				<e:Scroller width="100%" height="520" x="0" anchorOffsetY="0" verticalCenter="-2">
+					<e:List id="itemList">
+						<e:layout>
+							<e:TileLayout verticalGap="0" horizontalGap="10" paddingLeft="10"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" horizontalCenter="0" top="0"/>
+</e:Skin>

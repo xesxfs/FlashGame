@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1280" height="720" verticalCenter="0" horizontalCenter="0">
+
+		<e:Image x="290" y="112" source="set2_ditu_png" scale9Grid="95,88,662,350" anchorOffsetX="0" width="698" scaleX="1" scaleY="1"/>
+		<e:Image y="125.52" source="youjian_biaoti_png" horizontalCenter="0.5" x="442" scaleX="1" scaleY="1"/>
+		<e:Image y="138" source="youjian_youjian_png" horizontalCenter="0" x="592" scaleX="1" scaleY="1"/>
+		<e:Scroller width="653" height="400" x="315" y="190" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:List id="mailList"/>
+		</e:Scroller>
+		<e:Label id="noText" text="您当前没有邮件！0(>﹏&lt;)0" y="332" horizontalCenter="0" size="40" fontFamily="fzyc" textColor="0x9b8383" x="404" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="leftGroup" right="0" width="1280" height="720" touchEnabled="false" top="0">
+		<e:Button id="backBtn" label="" y="20" scaleX="1" scaleY="1" x="1157">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

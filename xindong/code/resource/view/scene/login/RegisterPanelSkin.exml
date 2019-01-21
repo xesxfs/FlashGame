@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegisterPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="main2_beijingtu_1_png" verticalCenter="0"/>
+
+	<e:Group width="1280" height="720" touchEnabled="false" x="0" verticalCenter="0">
+		<e:Button id="registerBtn" label="" y="576.6699999999998" anchorOffsetX="0" horizontalCenter="-1.5" x="517" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_hongseanniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="login2_zhuce_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="267" horizontalCenter="0" source="login2_ditu3_png" scale9Grid="56,87,257,28" anchorOffsetY="0" height="290" x="457" scaleX="1" scaleY="1"/>
+		<e:Image y="292.02" horizontalCenter="0" source="login2_ditu2_png" x="489" scaleX="1" scaleY="1"/>
+		<e:Image y="372.02" horizontalCenter="0" source="login2_ditu2_png" x="489" scaleX="1" scaleY="1"/>
+		<e:Image y="452.02" horizontalCenter="0" source="login2_ditu2_png" x="489" scaleX="1" scaleY="1"/>
+		<e:EditableText id="nameEdit" width="210" height="50" text="" x="560" y="295.02" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" size="30" prompt="请输入账号" fontFamily="fzyc" textColor="0x333333" maxChars="12" scaleX="1" scaleY="1"/>
+		<e:EditableText id="mimaEdit" width="205" height="50" text="" x="560" y="376.02" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" size="30" prompt="请输入密码" fontFamily="fzyc" displayAsPassword="true" textColor="0x333333" maxChars="12" scaleX="1" scaleY="1"/>
+		<e:EditableText id="mima2Edit" width="205" height="50" text="" y="457.02" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" size="30" prompt="请输入密码" fontFamily="fzyc" x="560" displayAsPassword="true" textColor="0x333333" maxChars="12" scaleX="1" scaleY="1"/>
+		<e:Image x="505" y="303" source="login2_ren_png" scaleX="1" scaleY="1"/>
+		<e:Image x="508" y="385" source="login2_suo_png" scaleX="1" scaleY="1"/>
+		<e:Image x="508" y="465" source="login2_suo_png" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="leftGroup" right="0" height="720" width="1280" touchEnabled="false" top="0">
+		<e:Button id="backBtn" label="" y="21.33" width="98" height="98" scaleX="1" scaleY="1" x="1155">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

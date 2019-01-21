@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageLoginUISkin" width="980" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="580">
+	<e:Scroller anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="64" bottom="67">
+		<e:Group id="scrollerGroup">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+			</e:layout>
+			<e:Image x="68" y="0" source="act_login_top_png" anchorOffsetY="0" anchorOffsetX="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Label text="活动时间：" x="37.35" y="17" textColor="0x989896"/>
+	<e:Label text="注册后7天内" x="180.68" y="17" textColor="0x16a3fd"/>
+</e:Skin>

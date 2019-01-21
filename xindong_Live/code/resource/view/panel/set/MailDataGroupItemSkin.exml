@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailDataGroupItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="giftImage" width="120" height="120" horizontalCenter="0"/>
+	<e:Label id="giftName" text="抱抱熊" x="5" y="127" fontFamily="Arial" size="24" textColor="0x53a5f9"/>
+	<e:Label id="giftCount" text="x1" x="84" y="125" size="24" fontFamily="Arial" textColor="0x53a5f9"/>
+</e:Skin>

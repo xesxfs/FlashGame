@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Message4ListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700" height="460">
+
+	<e:Image id="bgImg" width="696" scaleX="1" scaleY="1" anchorOffsetY="0" height="460" horizontalCenter="0" verticalCenter="0" source="set_box2_png" scale9Grid="46,45,51,38"/>
+	<e:Image width="630" x="35" y="124" source="tel_line_png"/>
+	<e:Image width="630" x="35" y="230" source="tel_line_png"/>
+	<e:Image width="630" x="35" y="336" source="tel_line_png"/>
+	<e:Label id="msg1" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" verticalAlign="middle" width="600" anchorOffsetY="0" y="23.72" scaleX="1" scaleY="1" fontFamily="Arial" size="26" anchorOffsetX="0" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg2" text="Label" y="127.61" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg3" text="Label" y="233.48" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg4" text="Label" y="338.89" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+
+</e:Skin>

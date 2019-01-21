@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LovePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group top="0" left="0" right="0" bottom="0">
+		<e:Image id="gloBgi" source="com_bg1_jpg" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="com_box_white_png" width="1150" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49" x="65" verticalCenter="60"/>
+		<e:Image source="interact_arrow_png" x="40" verticalCenter="60" visible="false"/>
+		<e:Image source="interact_arrow_png" x="1238" verticalCenter="60" scaleX="-1" visible="false"/>
+		<e:Scroller  height="600" anchorOffsetY="0" anchorOffsetX="0" width="1000" verticalCenter="60" horizontalCenter="0">
+			<e:List id="itemList" x="-230" y="10">
+				<e:layout>
+					<e:HorizontalLayout paddingTop="60" gap="60" paddingRight="0" paddingLeft="20"/>
+				</e:layout>
+			</e:List>
+
+		</e:Scroller>
+	</e:Group>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" horizontalCenter="0" top="0"/>
+	<e:Group id="guideGroup" touchChildren="true" touchEnabled="true" touchThrough="false" bottom="0" left="0" right="0" top="0" visible="false">
+		<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+			<e:Image id="loveHand" scaleX="1" scaleY="1" source="yindao_handleft_png" x="342" y="614" touchEnabled="false"/>
+			<e:Image x="253.00000000000003" scaleX="1" scaleY="1" source="com_guide0_png" y="244.00000000000003" visible="false"/>
+			<e:Image x="484" scaleX="1" scaleY="1" source="com_guide2_png" y="192" visible="false"/>
+			<e:Label text="点击开始按钮，" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" x="593" y="242" visible="false"/>
+			<e:Label text="完成和她的第一次恋爱时间吧！" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" x="520" y="284" visible="false"/>
+			<e:Label text="喵~" size="26" fontFamily="fzyc" scaleX="1" scaleY="1" x="672" y="327.00000000000006" visible="false"/>
+			<e:Image id="hitAreaImg" scaleX="1" scaleY="1" x="152.51" y="559.09" source="com_guide4_png" anchorOffsetX="0" width="286.55"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+	</e:Group>
+
+</e:Skin>

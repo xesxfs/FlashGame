@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyResultTenDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" width="800" height="500" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image source="set_box2_png" scale9Grid="64,53,23,21" scaleX="1" scaleY="1" width="800" height="500" y="0" x="0"/>
+		<e:Image width="736.36" height="371.21" source="set_bind_png_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="43,31,34,12" y="35" scaleX="1" scaleY="1" x="32"/>
+		<e:Button id="okBtn" label="确认" y="415.12" scaleX="1" scaleY="1" x="290">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="恭喜您获得以下道具：" x="50" y="48" textColor="0x15a7fd" scaleX="1" scaleY="1"/>
+		<e:Group id="itemGroup" left="0" right="0" top="0" bottom="0" touchEnabled="false">
+			<ns1:ResultItem x="35" y="85.00000000000001" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="181.42000000000002" y="85.00000000000001" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="328.7900000000001" y="85.00000000000001" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="475.4900000000001" y="85.00000000000001" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="622.0000000000001" y="85.00000000000001" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="35" y="247" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="181.92999999999995" y="247" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="328.43000000000006" y="247" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="474.92999999999995" y="247" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+			<ns1:ResultItem x="622.0000000000001" y="247" skinName="ResultItemSkin" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

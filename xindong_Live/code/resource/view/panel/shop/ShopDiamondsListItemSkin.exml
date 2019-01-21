@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopDiamondsListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="223" height="385">
+	<e:Group width="223" x="0" height="272" y="0">
+		<e:Image source="shop_item_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Rect id="maskImg" height="220.5" y="0.5" anchorOffsetX="0" anchorOffsetY="0" width="223" x="0"/>
+		<e:Image id="daojuImg" source="shop_item_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="doubleImg" width="48" height="50" x="158" y="16" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="nameLabel" text="小熊玩具" y="227" textColor="0x6a6c69" horizontalCenter="0" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+
+
+
+
+
+
+	<e:Button id="buyBtn" label="" y="289" x="2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Group height="69" y="292" anchorOffsetY="0" width="223" x="0" touchEnabled="false">
+		<e:Image id="priceImg" x="33" y="31" source="" touchEnabled="false"/>
+		<e:Label id="priceLabel" text="999" x="121" y="34" touchEnabled="false"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

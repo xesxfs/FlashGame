@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" source="loginbg_png" top="0"/>
+	<e:Group id="loginGroup" width="1280" height="720" right="0" verticalCenter="0">
+
+		<e:Image x="533" y="150" source="login_box1_png" width="700" height="500" scale9Grid="52,277,2,14"/>
+		<e:Image x="580" y="322.75" source="login_phone_png"/>
+
+		<e:Image anchorOffsetX="0" width="485" anchorOffsetY="0" height="72" scaleX="1" scaleY="1" y="303.75" x="704" source="login_box0_png" scale9Grid="52,24,26,11"/>
+		<e:EditableText id="phoneEdit" width="455.69" height="60" text="Label" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="left" x="730.15" y="309.46" maxChars="11" textColor="0xf9f4f4"/>
+		<e:Image anchorOffsetX="0" width="281.82" anchorOffsetY="0" height="72" scaleX="1" scaleY="1" y="435" x="704" source="login_box0_png" scale9Grid="52,24,26,11"/>
+		<e:EditableText id="codeEdit" width="231.45" height="60" text="Label" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="left" x="730.15" y="440.67" maxChars="6" textColor="0xF9F4F4"/>
+
+		<e:Image y="455" scaleX="1" scaleY="1" x="580" source="login_code_png"/>
+
+		<e:Button id="sendCodeBtn" label="发送验证码" y="431.91" x="1007" anchorOffsetX="0" width="182.12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png" source.disabled="com_btn_black_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="fzyc" size="30" textColor="0xffffff"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Button id="loginBtn" label="登录游戏" y="549.85" x="773">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" fontFamily="fzyc" size="40"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="guestBtn" label="" y="581.33" x="1044.57">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login_guest_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" fontFamily="fzyc" size="26"/>
+				</e:Skin>
+			</e:skinName>
+
+
+		</e:Button>
+		<e:Image source="login_logo_png" x="624.89" y="44.91"/>
+	</e:Group>
+</e:Skin>

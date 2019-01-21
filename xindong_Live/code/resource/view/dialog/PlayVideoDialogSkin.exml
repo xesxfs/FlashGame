@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayVideoDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0"/>
+	<e:Rect id="blackBg" left="0" right="0" top="0" bottom="0" fillAlpha="1"/>
+
+
+	<e:Group id="contentGroup" anchorOffsetX="0" width="649" touchEnabled="true" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="set2_ditu_png" scale9Grid="105,62,632,376" anchorOffsetX="0" width="655.63" anchorOffsetY="0" height="428.79" x="-3" y="0"/>
+
+
+		<e:Button id="okBtn" label="" y="307" width="191" height="86" x="229">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image y="20" horizontalCenter="0.5" source="bag2_queding_png"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="contentLabel" text="观看视频" y="36.36" anchorOffsetX="0" width="584" anchorOffsetY="0" height="262" verticalAlign="middle" textAlign="center" x="33" size="40" fontFamily="fzyc" textColor="0x474646" lineSpacing="10"/>
+
+
+	</e:Group>
+</e:Skin>

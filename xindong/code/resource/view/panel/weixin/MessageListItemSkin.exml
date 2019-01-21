@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MessageListItemSkin" width="905" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="905" y="0" anchorOffsetX="0">
+		<ns1:LeftMessage id="leftMessage" scaleX="1" scaleY="1" skinName="LeftMessageSkin"/>
+		<ns1:RightMessage id="rightMessage" skinName="RightMessageSkin" width="905"/>
+	</e:Group>
+</e:Skin>

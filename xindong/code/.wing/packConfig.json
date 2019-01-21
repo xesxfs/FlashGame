@@ -1,0 +1,29 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "f:\\Git\\xindong\\code\\resource\\default.res.json",
+    "packGroups": {
+        "hall": true,
+        "game": true,
+        "sound_other": true,
+        "common": true,
+        "panel": true,
+        "load_res": true,
+        "totalRes": true,
+        "dianhua": true,
+        "font": true,
+        "anim": true,
+        "preload": true,
+        "login": true,
+        "main": true,
+        "work": true,
+        "video": true,
+        "music": true,
+        "message": true,
+        "tel": true,
+        "shangcheng": true,
+        "bgm": true,
+        "share": true
+    }
+}

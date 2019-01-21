@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DaojuListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maskImg" anchorOffsetY="0" source="shop2_ditu_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="daojuImg" width="366" height="360" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image source="shop2_zhezhao2_png" y="213" x="0" scaleX="1" scaleY="1"/>
+	<e:Label id="buyLimitLabel" text="1230" y="250" scaleX="1" scaleY="1" anchorOffsetX="0" verticalAlign="middle" textAlign="right" width="360" fontFamily="fzyc" bold="true" x="-5" size="26"/>
+	<e:Group y="286" width="360" scaleX="1" scaleY="1" anchorOffsetX="0" x="1">
+		<e:Label id="eName" text="1230" x="0" y="5" size="24" textAlign="right" textColor="0xffffff" fontFamily="fzyc" verticalAlign="middle" bold="true"/>
+		<e:Label id="cName" text="1230" x="303" y="1" fontFamily="fzyc" textColor="0xffffff" anchorOffsetX="0" size="32" textAlign="right" verticalAlign="middle" bold="true"/>
+		<e:layout>
+		<e:HorizontalLayout gap="8" horizontalAlign="right" verticalAlign="middle" paddingRight="6"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="miaoshuLabel" text="1230" y="325" size="26" width="360" fontFamily="fzyc" textAlign="right" textColor="0xb2b4b3" scaleX="1" scaleY="1" anchorOffsetX="0" verticalAlign="middle" x="-5.5" bold="true"/>
+	<e:Button label="" scaleX="1" scaleY="1" x="0" y="360">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop2_anniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group y="378" touchChildren="false" touchEnabled="true" touchThrough="false" scaleX="1" scaleY="1" anchorOffsetX="0" width="366" x="0">
+		<e:Image y="0" source="main2_jinbi_png" touchEnabled="false" x="95"/>
+		<e:BitmapLabel id="goldLabel" text="222" y="2" anchorOffsetX="0" font="shuzi3_fnt" touchEnabled="false" x="169"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+	<e:Group id="buyGroup" touchEnabled="true" width="366" x="0" height="451" y="0">
+	</e:Group>
+</e:Skin>

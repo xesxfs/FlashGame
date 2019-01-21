@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+	</e:Group>
+	<e:Rect id="blackBg" left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" anchorOffsetX="0" width="649" touchEnabled="true" horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" width="655.63" anchorOffsetY="0" height="428.79" x="-3" y="0" source="set_box2_png" scale9Grid="42,62,60,23"/>
+		<e:Button id="okBtn" label="确定" y="316" width="191" height="86" x="229">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label text="亲爱的：" y="21.21" anchorOffsetX="0" width="570" anchorOffsetY="0" height="63.52" verticalAlign="middle" textAlign="left" x="44" size="40" fontFamily="fzyc" lineSpacing="10" textColor="0x6d4b49"/>
+		<e:Label text="    故事到这里暂告一段落，与你甜蜜相恋的这些天里，是我最开心的日子" y="75.14" anchorOffsetX="0" width="570" anchorOffsetY="0" height="174.13" verticalAlign="middle" textAlign="left" x="44" size="40" fontFamily="fzyc" lineSpacing="10" textColor="0x6d4b49"/>
+		<e:Label text="最新剧情已开拍，详情请关注" y="218.09" anchorOffsetX="0" width="570" anchorOffsetY="0" height="55.95" verticalAlign="middle" textAlign="right" x="44" size="28" fontFamily="fzyc" lineSpacing="10" textColor="0x6d4b49"/>
+		<e:Label text="公众号:《心动女生手游》  QQ群:545937961" y="258.39" anchorOffsetX="0" width="595.33" anchorOffsetY="0" height="55.95" verticalAlign="middle" textAlign="right" x="18.67" size="28" fontFamily="fzyc" lineSpacing="10" textColor="0x6d4b49"/>
+	</e:Group>
+</e:Skin>

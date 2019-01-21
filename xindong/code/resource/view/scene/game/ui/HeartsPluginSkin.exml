@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeartsPluginSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="jinduBg" width="275" height="59" x="110" y="34"/>
+	<e:Image id="jinduImg" x="110" source="main2_main2_tilitiao_png" y="34" width="275" scale9Grid="74,0,77,59"/>
+	<e:Image anchorOffsetX="0" scale9Grid="125,4,33,110" source="main2_tilizhi_png"/>
+
+	<e:Group x="143" width="222" y="37" scaleX="0.95" scaleY="0.95">
+		<e:BitmapLabel id="uHeartLabel" text="1894" x="0" y="14"  verticalAlign="middle" textAlign="right"  height="40" font="shuzi1_fnt" scaleY="0.9" scaleX="0.9"/>
+		<e:BitmapLabel text="/" x="87" y="12" width="24" font="shuzi1_fnt" scaleY="0.9" scaleX="0.9"/>
+		<e:BitmapLabel id="upHeartLabel" text="1894" x="134" y="14"  verticalAlign="middle" textAlign="left"   height="40" font="shuzi1_fnt" scaleX="0.9" scaleY="0.9"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" paddingTop="12"/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="main2_tilizhi-aixin_png" y="-1"/>
+	<e:Image id="maxImg" x="75" y="59" source="main2_MAX_png" anchorOffsetX="59" anchorOffsetY="20"/>
+	<e:Image id="maskImg" x="110" source="main2_zhezhao_1_png" y="34" anchorOffsetX="0" width="273" height="59" visible="false"/>
+</e:Skin>

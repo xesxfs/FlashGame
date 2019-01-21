@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="main2_beijingtu_1_png" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Group width="1280" height="720" touchEnabled="false" x="0" verticalCenter="0">
+		<e:Button id="loginBtn" label="" y="577" anchorOffsetX="0" horizontalCenter="0.5" x="519" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login2_hongseanniu_png"/>
+				<e:Image y="28" source="login2_denglu_png" x="66"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image y="347" horizontalCenter="0" scale9Grid="61,50,253,2" source="login2_ditu3_png" x="457" scaleX="1" scaleY="1"/>
+		<e:Image y="380" horizontalCenter="0" source="login2_ditu2_png" x="489" scaleX="1" scaleY="1"/>
+		<e:Image y="460" horizontalCenter="0" source="login2_ditu2_png" x="489" scaleX="1" scaleY="1"/>
+		<e:EditableText id="accountLabel" width="210.64" height="54.24" text="" x="552.27" y="381.76" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" prompt="请输入账号" size="30" fontFamily="fzyc" textColor="0x333333" maxChars="12" scaleX="1" scaleY="1"/>
+		<e:EditableText id="passwordLabel" width="207" height="50" text="" x="550" y="465.52" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" prompt="请输入密码" size="30" fontFamily="fzyc" displayAsPassword="true" textColor="0x333333" maxChars="12" scaleX="1" scaleY="1"/>
+		<e:Image x="505.9599999999999" y="392" source="login2_ren_png" scaleX="1" scaleY="1"/>
+		<e:Image x="507" y="474" source="login2_suo_png" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="leftGroup" width="1280" height="720" right="0" touchEnabled="false" top="0">
+		<e:Button id="backBtn" label="" y="20" scaleX="1" scaleY="1" x="1157">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="login2_yuanxinganniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="login2_fanhui_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

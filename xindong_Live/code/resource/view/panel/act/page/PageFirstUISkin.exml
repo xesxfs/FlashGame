@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PageFirstUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="980" height="580">
+	<e:Image y="26.67" source="act_first_png" x="39"/>
+	<e:Button id="chongzhiBtn" label="去充值" y="433" x="380">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="lingquBtn" label="领取" y="433" x="380">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image source="col_box0_png" x="620.65" y="135.64" scale9Grid="27,15,162,94" anchorOffsetX="0" width="80" anchorOffsetY="0" height="42.67"/>
+	<e:Label text="首次充值任意金额" x="520" y="94" bold="true"/>
+	<e:Label text="送价值" x="520" y="144" bold="true"/>
+
+	<e:Label id="priceLabel" text="999" y="137.64" fontFamily="Arial" horizontalCenter="171.5" size="40" anchorOffsetX="0" width="101" verticalAlign="middle" textAlign="center" textColor="0xfde400"/>
+	<e:Label text="元首冲大礼包" x="705" y="144" bold="true"/>
+	<e:Image id="rewardImg0" x="529.31" y="250" source="act_yilingqu_png" width="92" height="92"/>
+	<e:Image id="rewardImg1" y="250" source="act_yilingqu_png" width="92" height="92" x="661.34"/>
+	<e:Image id="rewardImg2" x="793.65" y="250" source="act_yilingqu_png" width="92" height="92"/>
+	<e:Label id="rewardLabel0" text="香水x1" x="499.02" verticalAlign="middle" textAlign="center" y="361.69" fontFamily="fzyc" width="150" size="22"/>
+	<e:Label id="rewardLabel1" text="香水x1123" verticalAlign="middle" textAlign="center" y="361.69" fontFamily="fzyc" x="631.35" width="150" size="22"/>
+	<e:Label id="rewardLabel2" text="香水x1" x="764.66" verticalAlign="middle" textAlign="center" y="361.69" fontFamily="fzyc" width="150" size="22"/>
+</e:Skin>

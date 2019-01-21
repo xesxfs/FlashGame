@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CollectionItemSkin" width="310" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="col_item_bg_png" y="0" x="6" scaleX="1" scaleY="1"/>
+		<e:Image id="itemImg" horizontalCenter="0" y="0" source="col_img_png"/>
+		<e:Image id="bgmImg" horizontalCenter="0" source="com_bgm_cir_png" y="93.5" anchorOffsetX="145" anchorOffsetY="90" visible="false"/>
+		<e:Group id="lockGro" width="100%" height="192" x="0" y="0">
+			<e:Image source="col_box1_png" scaleX="1" scaleY="1" x="10" y="2.98"/>
+			<e:Image source="col_lock_png" x="119" y="54"/>
+		</e:Group>
+		<e:Group id="playGro" width="100%" height="192" x="0" y="0">
+			<e:Image source="shipin2_bofang_png" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="nameGro" width="100%" height="192" x="0" y="0" touchThrough="true" touchEnabled="false">
+			<e:Image source="col_box2_png" x="10" y="142.83"/>
+			<e:Label id="nameLab" text="Music-01" y="153" fontFamily="Microsoft YaHei" size="25" horizontalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="100%" height="68" x="0" y="192">
+		<e:Group id="goldGro" width="100%" height="100%" x="0" y="0" visible="false">
+			<e:Image source="col_box_png" scaleX="1" scaleY="1" x="43" y="13"/>
+			<e:Image source="com_gold_icon_png" y="15" x="86"/>
+			<e:Label id="goldLab" text="100" x="130" fontFamily="Arial" y="19" textAlign="center" width="120"/>
+		</e:Group>
+		<e:Group id="usingGro" width="100%" height="100%" x="0" y="0" visible="false">
+			<e:Image source="col_box_png" scaleX="1" scaleY="1" x="43" y="13"/>
+			<e:Label text="正在使用" fontFamily="Arial" y="19" textAlign="left" horizontalCenter="0" textColor="0x0099cc"/>
+		</e:Group>
+		<e:Group id="descGro" width="100%" height="100%" x="0" y="0" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="work_box_blue_png" x="27" y="10"/>
+			<e:Label id="descLab" text="赠礼100解锁" fontFamily="Arial" textAlign="left" horizontalCenter="0" verticalCenter="0" textColor="0x0099cc"/>
+		</e:Group>
+        <e:Group id="chipGro" width="100%" height="100%" x="0" y="0">
+			<e:Image source="col_box_png" scaleX="1" scaleY="1" x="43" y="13"/>
+					<e:Image x="80" verticalCenter="0" source="col_video_piece_png"/>
+					<e:Label id="chipLab" text="50/100" x="132" fontFamily="Microsoft YaHei" y="19" textAlign="left" scaleX="1" scaleY="1"/>
+		</e:Group>
+        <e:Group id="musicGro" width="100%" height="100%" x="0" y="0" visible="false">
+					<e:Button id="changeMusicBtn" label="更换音乐" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+		</e:Group>
+        <e:Group id="treasureGro" width="100%" height="100%" x="0" y="0" visible="false">
+					<e:Button id="useBgBtn" label="使用" horizontalCenter="0" verticalCenter="0" scaleX="0.7" scaleY="0.7" x="78" y="8">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+						</e:Skin>
+						</e:skinName>
+					</e:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

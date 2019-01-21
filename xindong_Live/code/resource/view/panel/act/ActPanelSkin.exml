@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1280" height="720" top="0" horizontalCenter="0">
+		<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" x="0" y="0" scaleX="1" scaleY="1"/>
+
+	</e:Group>
+
+
+
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+
+
+
+
+		<e:Group width="256.06" height="607.67" x="16" y="104.15" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+			<e:RadioButton id="radioBtn0" label="登录有奖" y="34.34" value="0" selected="true" x="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="act_icon_login_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn1" label="幸运抽奖" y="133.19" value="1" x="16" >
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="act_icon_lucky_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn2" label="首充双倍" y="231.19" value="2" x="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="act_icon_double_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn3" label="首充礼包" y="330.19" value="3" x="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="act_icon_first_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:RadioButton id="radioBtn4" label="礼包兑换" y="499.15" value="4" x="16">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com_box_pink_png" source.down="com_box_blue_png"/>
+					<e:Image source="act_icon_exchange_png" horizontalCenter="0" verticalCenter="-22"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="25" textColor="0xE2B0D8" textColor.down="0x15A5FE"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:RadioButton>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" paddingTop="20" gap="12"/>
+			</e:layout>
+		</e:Group>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" width="1280" height="720" y="0" x="0">
+			<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" x="256" y="124" height="580" scale9Grid="248,49,568,64" width="980" source="com_box_white_png"/>
+
+			<e:ViewStack id="viewStack" width="980" height="580" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" selectedIndex="4" y="124" x="256">
+				<e:Group width="100%" height="100%">
+				<ns1:PageLoginUI id="pageLogin" scaleX="1" scaleY="1" skinName="PageLoginUISkin" x="0" y="19.12"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:PageLuckyUI id="pageLucky" scaleX="1" scaleY="1" skinName="PageLuckyUISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:PageDoubleUI id="pageDouble" scaleX="1" scaleY="1" skinName="PageDoubleUISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:PageFirstUI id="pageFirst" scaleX="1" scaleY="1" skinName="PageFirstUISkin" x="7.48" y="14.64"/>
+				</e:Group>
+				<e:Group width="100%" height="100%">
+				<ns1:PageExchangeUI id="exchange" scaleX="1" scaleY="1" skinName="PageExchangeUISkin" x="7.48" y="14.64"/>
+				</e:Group>
+			</e:ViewStack>
+		</e:Group>
+
+	</e:Group>
+</e:Skin>

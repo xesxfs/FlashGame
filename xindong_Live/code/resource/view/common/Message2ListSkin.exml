@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Message2ListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700" height="230">
+
+	<e:Image id="bgImg" height="230" width="696" anchorOffsetY="0" x="2" y="0" source="set_box2_png" scale9Grid="49,36,44,50"/>
+	<e:Image width="630" x="35" verticalCenter="0" source="tel_line_png"/>
+	<e:Label id="msg1" text="Label2Label2Label2Label2Label2Label2Label2Label2Label2Label2Label2Label" verticalAlign="middle" width="600" anchorOffsetY="0" y="14.25" scaleX="1" scaleY="1" fontFamily="Arial" size="26" anchorOffsetX="0" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+	<e:Label id="msg2" text="Label" y="115.96" anchorOffsetX="0" width="600" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="Arial" size="26" textAlign="left" height="100" horizontalCenter="0" textColor="0x6a81ad"/>
+
+</e:Skin>

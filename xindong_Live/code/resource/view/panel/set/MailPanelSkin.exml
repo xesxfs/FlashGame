@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="860" height="560" verticalCenter="0" horizontalCenter="0">
+
+		<e:Image anchorOffsetX="0" width="860" scaleX="1" scaleY="1" source="com_box_itembg_png" scale9Grid="61,22,44,28" height="560" x="0" y="0"/>
+		<e:Image width="806" height="446" source="set_box2_png" scale9Grid="19,17,116,107" y="95.68" x="27"/>
+
+		<e:Scroller width="800" height="418.67" y="108.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="30">
+			<e:List id="mailList"/>
+		</e:Scroller>
+		<e:Label id="noText" text="当前没有邮件!" y="250.69" size="40" fontFamily="Arial" scaleX="1" scaleY="1" textColor="0x9e9e9e" x="304"/>
+		<e:Image y="13" scaleX="1" scaleY="1" source="set_pink_png" x="5"/>
+		<e:Image id="closeBtn" source="mail_close_png" x="762" y="6"/>
+		<e:Image source="com_title_mail_png" y="22" x="383"/>
+	</e:Group>
+
+</e:Skin>

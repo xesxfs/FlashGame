@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>心动女生</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portraint" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+
+
+	<style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+		@font-face {
+            font-family:"fzyc";
+            src: url("font/fzyc.TTF");
+            }
+    </style>
+
+
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/md5/md5.js" src-release="libs/modules/md5/md5.min.js"></script>
+	<!--modules_files_end-->
+
+	<!--========================= 7k7k SDK =============================-->
+	<script >
+		function GetQueryString(name){
+				var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r!=null)return  unescape(r[2]); return null;
+		}
+
+		let account = GetQueryString("userid");
+		let k7_vaildCode = GetQueryString("vaildCode");
+
+		let userid = GetQueryString("userid");
+		let username = GetQueryString("username");
+		let isAdult = GetQueryString("isAdult");
+		let avatar = GetQueryString("avatar");
+		let sex = GetQueryString("sex");
+		let vaildCode = GetQueryString("vaildCode");
+		let time = GetQueryString("time");
+		let sign = GetQueryString("sign");
+
+		var channel = "";
+
+		if(userid && username  && vaildCode && sign && time){
+			var auth_7k7k = {userid,username,isAdult,avatar,sex,vaildCode,time,sign};
+			channel = "7k7k";
+		}
+
+		var sdkInit = {
+			account,
+			"appkey": "733262ed3b9ae839657918a7f0caf886 ",
+			k7_vaildCode
+		}
+
+		//游戏分享成功回调
+		function wxShareRes() {	
+			//游戏在方法内实现自身逻辑，如：提示用户分享成功，并发放奖励
+			console.log("share success");
+			window["GC"].reqShareGain();
+    	}
+
+	</script>
+
+	<script src="http://h5.7k7k.com/assets/v0.1.0/k7sdk.js" ></script>
+
+	<!--=========================  End 7k7k SDK =============================-->
+
+<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+<!--game_files_start-->
+	<script egret="game" src="bin-debug/framework/core/SingleClass.js"></script>
+	<script egret="game" src="bin-debug/framework/component/BaseDialog.js"></script>
+	<script egret="game" src="bin-debug/framework/component/BaseMovieClip.js"></script>
+	<script egret="game" src="bin-debug/framework/component/BasePanel.js"></script>
+	<script egret="game" src="bin-debug/framework/component/BaseScene.js"></script>
+	<script egret="game" src="bin-debug/framework/component/BaseUI.js"></script>
+	<script egret="game" src="bin-debug/framework/core/Facade.js"></script>
+	<script egret="game" src="bin-debug/framework/core/Mediator.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ui/DayRewardUI.js"></script>
+	<script egret="game" src="bin-debug/framework/adapter/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/framework/core/View.js"></script>
+	<script egret="game" src="bin-debug/framework/net/HttpSender.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/ArrayTool.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/CommomBtn.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/DateTimer.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/DeviceUtils.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/EffectUtils.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/EventMananger.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/LayerManager.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/LogICT.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/NumberTool.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/PanelManager.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/ResUtils.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/SceneManager.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/SoundManager.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/StageUtils.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/StringTool.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/TalkManager.js"></script>
+	<script egret="game" src="bin-debug/framework/utils/Tips.js"></script>
+	<script egret="game" src="bin-debug/xindong/App.js"></script>
+	<script egret="game" src="bin-debug/xindong/constant/AssetConst.js"></script>
+	<script egret="game" src="bin-debug/xindong/constant/EventConst.js"></script>
+	<script egret="game" src="bin-debug/xindong/constant/LanConst.js"></script>
+	<script egret="game" src="bin-debug/xindong/constant/PanelConst.js"></script>
+	<script egret="game" src="bin-debug/xindong/constant/SceneConst.js"></script>
+	<script egret="game" src="bin-debug/xindong/Main.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/data/ChannelInfo.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/data/ConfigInfo.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/data/UserAgreeInfo.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/data/UserInfo.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/DataCenter.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/protocol/ProtocolHttp.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/protocol/ProtocolHttpData.js"></script>
+	<script egret="game" src="bin-debug/xindong/model/protocol/ProtocolHttpUrl.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/anim/DianjiAnim.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/anim/LoadingAnim.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/anim/UpgradeAnim.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/dialog/ConfirmDialog.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/dialog/GameOverDialog.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/dialog/NoticeDialog.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/dialog/PlayVideoDialog.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/dialog/ShareGainDialog.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/ui/LoadingLock.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/ui/MessageList.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/ui/MessageListManager.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/utils/LocalStorageUtil.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/utils/MyVideo.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/utils/NativeBridge.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/common/utils/TipsHeat.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPage0UI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPage1UI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPage2UI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPage3UI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPage4UI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ActPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ui/ActBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ui/ActKeLingQuBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/act/ui/ActLingQuBtn.js"></script>
+	<script egret="game" src="bin-debug/framework/adapter/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/bag/BagsGroupItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/bag/BagsPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/bag/BeibaoBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/bag/UseToolPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/libao/LibaoCDPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/libao/LibaoFinishPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/libao/LibaomiaohuiPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/libao/LibaoVideoPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/love/FinishLovePanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/love/LoveBox.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/love/LovePanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/love/LoveProPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/CallHistoryListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/CallHistoryPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/CallingPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/CallListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/DianhuaPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/JietongPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/LeftMessage.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/MessageListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/phone/RightMessage.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/MailDataGroupItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/MailDataPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/MailListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/MailPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/ProtocolPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/set/SetPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/share/SharePanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shipin/ShipinPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shipin/ShiPinScrollerItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/BuyToolPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/DaojuListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/ShopDiamondsListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/ShopGoldListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/ShopPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/shop/ShopXiangouListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/weibo/WeiboListItem.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/weibo/WeiboPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/weixin/SendMessage.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/weixin/WeixinPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/work/FinishWorkPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/work/WorkBox.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/work/WorkPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/panel/work/WorkProPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/DianhuaBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/GongzuoBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/LianaiBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/SetBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/ShangchengBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/ShareBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/ShipinBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/WeiboBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/btn/WeixinBtn.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/GameMediator.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/GameScene.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/ui/DiamondUI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/ui/GoldUI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/ui/HeartsPlugin.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/ui/PowerUI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/game/ui/TaskTipUI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/load/LoadMediator.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/load/LoadScene.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/GameAdviceUI.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/InputNamePanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/LoginMediator.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/LoginPanel.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/LoginScene.js"></script>
+	<script egret="game" src="bin-debug/xindong/module/scene/login/RegisterPanel.js"></script>
+	<!--game_files_end-->
+</head>
+
+<body>
+
+	<!--========================= Video播放 =============================-->
+	<video 
+		id="myVideo" 
+		playsinline = "true"
+		x5-video-player-type="h5" 
+		webkit-playsinline = "true"
+		src="" 
+		style="z-index: 999;display:none;width: 100%;height: 100%;position: fixed;"
+		>
+	</video>
+
+	<script>
+	    //x-webkit-airplay
+		//playsinline                 IOS微信浏览器支持小窗内播放
+		//x5-video-player-type        启用同层H5播放器，就是在视频全屏的时候，div可以呈现在视频层上，也是WeChat安卓版特有的属性
+		//x5-video-player-fullscreen  全屏设置，设置为 true 是防止横屏
+		//x5-video-orientation        声明播放器支持的方向，可选值landscape 横屏, portraint竖屏
+		//object-fit                  填充类型 fill扭曲填满屏幕
+	</script>
+	<!--========================= End Video播放 =============================-->
+
+	<div 
+		id="can" 
+		style="margin: auto;width: 100%;height: 100%;" 
+		class="egret-player" 
+		data-entry-class="Main" 
+		data-orientation="landscape" 
+		data-scale-mode="fixedWidth" 
+		data-frame-rate="30"
+		data-content-width="1280" 
+		data-content-height="720" 
+		data-show-paint-rect="false" 
+		data-multi-fingered="2" 
+		data-show-fps="false"
+		data-show-log="false" 
+		data-log-filter="" 
+		data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0">
+	</div>
+
+
+<script>
+
+
+		var version = "1.0.99";
+
+		egret.runEgret({ renderMode: "canvas" });
+
+
+	</script>
+</body>
+
+</html>

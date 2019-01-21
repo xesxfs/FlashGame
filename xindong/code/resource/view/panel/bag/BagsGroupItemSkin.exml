@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagsGroupItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="maskImg" width="366" height="360" source="bag2_zhishibing_png"/>
+	<e:Image id="daojuImg" width="366" height="360"/>
+	<e:Image anchorOffsetY="0" source="bag2_baidi_png" y="360"/>
+
+	<e:Group height="43" y="371" anchorOffsetY="0" width="366" x="0">
+		<e:Label id="typeLabel" text="啊啊啊啊啊" x="24" textColor="0x000000" height="38" fontFamily="fzyc" size="40" y="1" anchorOffsetX="0" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Label id="countLabel" text="x10" x="216" textColor="0xff4f4f" fontFamily="fzyc" y="4" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

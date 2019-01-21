@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskTipUISkin" width="290" height="40" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="tishiImg" source="main2_tishiditu_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="tishiLabel" text="快给小野打个电话吧~" fontFamily="fzyc" textColor="0xFFEF3D" size="24" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

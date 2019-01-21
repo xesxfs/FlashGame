@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Message3ListSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="720">
+	<e:Rect id="bgrect" width="1280" height="720" fillAlpha="0"/>
+	<e:Image id="bgImg" width="696" scaleX="1" scaleY="1" source="weixin2_xuanzeliaotian2_png" scale9Grid="190,103,194,94" height="252"/>
+	<e:Group id="bgGroup" y="16">
+		<e:Group id="msg1Group" width="650" x="15" y="10" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="true">
+			<e:Label id="msg1" text="Label2" verticalAlign="middle" width="630" x="7" anchorOffsetY="0" y="8" scaleX="1" scaleY="1" fontFamily="SimHei" size="26" anchorOffsetX="0" textAlign="center" textColor="0x707070"/>
+			<e:Image x="115" y="7" source="weixin2_fengexian_png" width="630"/>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="12" gap="10" paddingTop="16"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="msg2Group" width="650" x="18" y="77" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="true" touchChildren="false">
+			<e:Label id="msg2" text="Label" x="7" y="8" anchorOffsetX="0" width="630" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="SimHei" size="26" textAlign="center" textColor="0x707070"/>
+			<e:Image x="115" y="7" source="weixin2_fengexian_png" width="630"/>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="12" gap="10" paddingTop="8"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="msg3Group" width="650" x="17" y="123" anchorOffsetY="0" anchorOffsetX="0" touchEnabled="true" touchChildren="false">
+			<e:Label id="msg3" text="Label" x="7" y="8" anchorOffsetX="0" width="630" anchorOffsetY="0" verticalAlign="middle" scaleX="1" scaleY="1" fontFamily="SimHei" size="26" textAlign="center" textColor="0x707070"/>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="12" gap="10" paddingTop="8"/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="20" paddingTop="25" paddingLeft="26" paddingRight="0" paddingBottom="15"/>
+		</e:layout>
+	</e:Group>
+	
+</e:Skin>

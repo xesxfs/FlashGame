@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shangchengBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="shangchengImg"  source="main2_shangcheng_png" x="0" y="20"/>
+
+
+	<e:Image id="red" x="64" y="0"  source="main2_tishi_png" visible="false"/>
+</e:Skin>

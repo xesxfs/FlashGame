@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailDataPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="860" height="560" verticalCenter="0" horizontalCenter="0">
+		<e:Image anchorOffsetX="0" width="860" scaleX="1" scaleY="1" source="com_box_itembg_png" scale9Grid="63,20,33,18" height="560" x="0" y="0"/>
+		<e:Image y="12" scaleX="1" scaleY="1" source="set_pink_png" x="5"/>
+		<e:Image id="closeBtn" source="mail_close_png" x="762" y="6"/>
+
+		<e:Image width="806" height="353" source="set_box2_png" scale9Grid="19,17,116,107" y="95.68" anchorOffsetY="0" x="27"/>
+
+		<e:Image x="44.99" y="109.95" scaleX="1" scaleY="1" source="mail_item_bg_png"/>
+		<e:Label id="titleLabel" text="周一见" x="98.32" y="122.72" fontFamily="Arial" size="28" scaleX="1" scaleY="1" textColor="0xf7efef"/>
+
+
+
+		<e:Scroller width="767" height="269" y="168.69" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="47">
+			<e:Group id="mailGroup" anchorOffsetX="0" width="100%" x="-65.33" y="0" height="100%">
+			<e:Label id="contentLabel" text="想解锁视频吗？想解锁视频吗？想解锁视频吗？想解锁视频吗？想解锁视频吗？想解锁视频吗？想解锁视频吗？" x="38" y="25.67" fontFamily="Arial" width="702.67" anchorOffsetX="0" textColor="0x9f9f9f"/>
+			<e:Group id="giftGroup" x="30" y="130" anchorOffsetY="0" width="693.33" anchorOffsetX="0" height="11.67">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="42" paddingTop="27" gap="10"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+
+		<e:Button id="linquBtn" label="领取" y="468.69" scaleX="1" scaleY="1" x="320">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="com_title_mail_png" y="21" x="383"/>
+	</e:Group>
+
+
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeDialogSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8"/>
+	<e:Group id="contentGroup" anchorOffsetX="0" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="set2_ditu_png" scale9Grid="105,62,632,376" anchorOffsetX="0" width="700" anchorOffsetY="0" height="500" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="act_btn_bg2_png" scale9Grid="38,59,21,43" anchorOffsetX="0" width="640" anchorOffsetY="0" height="260" scaleX="1" scaleY="1" x="320" y="230"/>
+		<e:Image y="120.84" source="youjian_biaoti_png" horizontalCenter="0.5"/>
+		<e:Label id="titleLabel" text="公告" y="126.84" fontFamily="fzyc" size="50" verticalAlign="middle" textAlign="center" horizontalCenter="1"/>
+		<e:Button id="okBtn" label="" y="559.99" width="191" height="86" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="work2_anniu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image y="20" horizontalCenter="0.5" source="bag2_queding_png"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="contentLabel" text="不好意思，宝宝们" anchorOffsetX="0" width="612.79" anchorOffsetY="0" height="218.05" verticalAlign="top" textAlign="left" size="30" fontFamily="fzyc" textColor="0xfcf9f9" x="334" y="251"/>
+		<e:Image source="laba_png" x="322" y="184.84"/>
+		<e:Label id="noticeLabel" text="关于暖心视频无法播放" x="381.33" y="187.88" anchorOffsetX="0" width="574.24" anchorOffsetY="0" height="39.09" verticalAlign="middle" textAlign="left" fontFamily="fzyc" textColor="0x9d8281"/>
+		<e:Label id="wxLabel" text="微信公众号:  《心动女生手游》 客服QQ:202963048" x="330.73" y="500.91" textColor="0x9D8281" anchorOffsetX="0" width="619.69" anchorOffsetY="0" height="39.09" verticalAlign="middle" textAlign="left" fontFamily="fzyc" size="26"/>
+	</e:Group>
+</e:Skin>

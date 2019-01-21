@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="800" height="110">
+	<e:Image source="mail_list_png" scale9Grid="193,46,24,21" width="800" height="110" x="0" y="0"/>
+
+
+	<e:Label id="titleLabel" text="周一返利" x="139" fontFamily="Arial" size="28" textColor="0x9e8281" y="41"/>
+	<e:Label id="timeLabel" text="2017.10.12" x="568" fontFamily="Arial" size="28" textColor="0xb3b3b3" verticalCenter="0"/>
+</e:Skin>

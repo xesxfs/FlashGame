@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LibaoFinishSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.8" left="0" right="0" top="0" bottom="0"/>
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1280" height="720" verticalCenter="0" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="libao_bg_png"/>
+		<e:Image scaleX="1" scaleY="1" source="libao_panel_png" x="215" y="78"/>
+		<e:Image y="132.31" horizontalCenter="-258.5" x="301" scaleX="1" scaleY="1" source="libao_title0_png"/>
+
+
+		<e:Image horizontalCenter="-89" y="317.37" x="250" scaleX="1" scaleY="1" source="libao_content0_png"/>
+		<e:Button id="buyBtn" label="￥30" y="498.25" scaleX="1" scaleY="1" x="530">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com_btn_blue_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="closeBtn" label="" x="1130.97" y="71.85" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="libao_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image x="595.2" y="240.48" source="com_gold_icon_png"/>
+		<e:Label text="x1500" x="643.6" y="240.55" rotation="-5"/>
+	</e:Group>
+</e:Skin>

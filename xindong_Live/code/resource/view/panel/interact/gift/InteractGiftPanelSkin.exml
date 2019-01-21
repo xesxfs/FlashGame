@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InteractGiftPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"  xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="gloBgi" horizontalCenter="0" verticalCenter="0" source="com_bg1_jpg"/>
+	<ns1:TopMenu id="topMenu" skinName="ComTopMenuSkin" horizontalCenter="0" top="0"/>
+    <e:Group width="100%" height="600" horizontalCenter="0" verticalCenter="60">
+        <e:Image source="com_box_white_png" width="1150" height="580" scaleX="1" scaleY="1" scale9Grid="143,81,864,49" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="1150" height="580" horizontalCenter="0" verticalCenter="0">
+				<e:Group width="500" height="100%" x="0" y="0">
+					<e:Image id="girlImg" source="interact_img_png" y="48" x="19" width="462" height="485"/>
+					<e:Image source="interact_popo_png" x="-26" y="-24"/>
+					<e:Label id="tipsLab" text="每次送礼物可以额外增加心动值，解锁小视频哦。" x="-14.31" y="-4.99" height="100" width="200" textColor="0x0099cc" size="25" verticalAlign="middle" textAlign="center"/>
+					<e:Image source="interact_box_white_png" y="500" x="27"/>
+					<e:Image id="proImg" source="interact_box_blue_png" x="27" y="500" width="410" scale9Grid="8,2,419,12"/>
+					<e:Group id="giftGro" width="500" height="80" x="0" y="419">
+						<e:Image source="interact_gift_icon_png" x="35" verticalCenter="0.5"/>
+						<e:Image source="interact_gift_icon_png" x="112" y="4"/>
+						<e:Image source="interact_gift_icon_png" x="188" y="4"/>
+						<e:Image source="interact_gift_icon_png" x="264" y="4"/>
+						<e:Image source="interact_gift_icon_png" x="340" y="4"/>
+						<e:Image source="interact_gift_icon_png" x="415" verticalCenter="0.5"/>
+					</e:Group>
+					<e:Label id="proLab" text="123" y="499" textColor="0x000000" size="20" horizontalCenter="0"/>
+				</e:Group>
+				<e:Scroller width="620" height="490" x="512" y="45">
+					<e:List id="itemList">
+						<e:layout>
+							<e:TileLayout orientation="columns" requestedRowCount="2" verticalGap="0"/>
+						</e:layout>
+					</e:List>
+				</e:Scroller>
+				<e:Image source="interact_arrow_png" x="452" verticalCenter="0" visible="false"/>
+				<e:Image source="interact_arrow_png" x="1185" verticalCenter="0" scaleX="-1" visible="false"/>
+			</e:Group>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CallHistoryListItemSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="905" anchorOffsetX="0">
+		<ns1:LeftMessage id="leftMessage" xmlns:ns1="*" scaleX="1" scaleY="1" skinName="LeftMessageSkin"/>
+		<ns1:RightMessage id="rightMessage" xmlns:ns1="*" skinName="RightMessageSkin" x="372"/>
+	</e:Group>
+</e:Skin>

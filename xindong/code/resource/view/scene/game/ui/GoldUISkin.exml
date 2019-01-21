@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldUISkin" width="250" height="70" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="3" y="7.97" scale9Grid="9,10,23,22" source="main2_ditu_png"/>
+	<e:BitmapLabel id="goldLabel" text="0" x="74" y="16" anchorOffsetX="0" anchorOffsetY="0" height="37" verticalAlign="middle" textAlign="center" font="shuzi3_fnt"/>
+	<e:Image x="2" y="6" source="main2_jinbi_png"/>
+	<e:Image x="30.05" y="26.97" source="main2_jiahao2_png"/>
+</e:Skin>
